@@ -62,7 +62,7 @@ begin
 	C <= status(2);
 	V <= status(1);
 	Z <= status(0);
-
+	
 	-- for debugging only
 	debug_state <= current_state;
 
@@ -124,8 +124,472 @@ begin
 
 		-- Student Code:  set output signals and WMFC for each instruction and each stage
 		
+		
+	if (current_state = "001") then
+			MA_select <= '1'; 
+			MEM_read <= '1';
+			MEM_write <= '0'; -- for clarity, same as default
+			WMFC <= '1';
+			if (MFC = '1') then
+				IR_enable <= '1';
+			else
+				IR_enable <= '0'; --for clarity
+			end if;
+				INC_select <= '0';   -- for clarity 
+				PC_select <= "01";
+			if (MFC = '1') then
+				PC_enable <= '1';
+			else
+				PC_enable <= '0'; --for clarity
+			end if;
+	end if;
+	--R-type add
+	if((OP_code = "000") and OPX = "0000") then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				B_select <= '0';
+				ALU_op <= "11";
+				A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+			elsif (current_state = "100") then
+				Y_select <= "00";
+			elsif (current_state = "101") then
+				RF_write <= '1'; 
+				C_select <= "01";
+			end if;
+	end if;
+
+		--R-type sub
+	if((OP_code = "000") and (OPX = "0001")) then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				B_select <= '0';
+				ALU_op <= "11";
+				A_inv <= '0'; B_inv <= '1'; C_in <= '1';
+			elsif (current_state = "100") then
+				Y_select <= "00";
+			elsif (current_state = "101") then
+				RF_write <= '1'; 
+				C_select <= "01";
+			end if;
+	end if;
+	
+		--R-type and
+	if((OP_code = "000") and (OPX = "0010")) then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				B_select <= '0';
+				ALU_op <= "00";
+				A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+			elsif (current_state = "100") then
+				Y_select <= "00";
+			elsif (current_state = "101") then
+				RF_write <= '1'; 
+				C_select <= "01";
+			end if;
+	end if;
+		--R-type or
+	if((OP_code = "000") and (OPX = "0011")) then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				B_select <= '0';
+				ALU_op <= "01";
+				A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+			elsif (current_state = "100") then
+				Y_select <= "00";
+			elsif (current_state = "101") then
+				RF_write <= '1'; 
+				C_select <= "01";
+			end if;
+	end if;
+		--R-type xor
+	if((OP_code = "000") and (OPX = "0100")) then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				B_select <= '0';
+				ALU_op <= "10";
+				A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+			elsif (current_state = "100") then
+				Y_select <= "00";
+			elsif (current_state = "101") then
+				RF_write <= '1'; 
+				C_select <= "01";
+			end if;
+	end if;
+		--R-type nand ??
+	if((OP_code = "000") and (OPX = "0101")) then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				B_select <= '0';
+				ALU_op <= "00";
+				A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+			elsif (current_state = "100") then
+				Y_select <= "00";
+			elsif (current_state = "101") then
+				RF_write <= '1'; 
+				C_select <= "01";
+			end if;
+	end if;
+		--R-type nor??
+	if((OP_code = "000") and (OPX = "0110")) then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				B_select <= '0';
+				ALU_op <= "01";
+				A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+			elsif (current_state = "100") then
+				Y_select <= "00";
+			elsif (current_state = "101") then
+				RF_write <= '1'; 
+				C_select <= "01";
+			end if;
+	end if;
+		--R-type nxor??
+	if((OP_code = "000") and (OPX = "0111")) then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				B_select <= '0';
+				ALU_op <= "10";
+				A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+			elsif (current_state = "100") then
+				Y_select <= "00";
+			elsif (current_state = "101") then
+				RF_write <= '1'; 
+				C_select <= "01";
+			end if;
+	end if;
+			--R-type cmp??
+	if((OP_code = "000") and (OPX = "1000")) then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				B_select <= '0';
+				ALU_op <= "11";
+				A_inv <= '0'; B_inv <= '1'; C_in <= '1';
+			elsif (current_state = "100") then
+				Y_select <= "00";
+				Status_enable <= '1';
+			elsif (current_state = "101") then
+				RF_write <= '1'; 
+				C_select <= "01";
+			end if;
+	end if;
+				--R-type jmp
+	if((OP_code = "000") and (OPX = "1001")) then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				PC_select<="00";
+				PC_enable<='1';
+			elsif (current_state = "100") then
+
+			elsif (current_state = "101") then
+
+			end if;
+	end if;
+				--R-type callr
+	if((OP_code = "000") and (OPX = "1010")) then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				PC_select<="00";
+				PC_enable<='1';
+			elsif (current_state = "100") then
+				Y_select <= "10";
+			elsif (current_state = "101") then
+				RF_write <= '1'; 
+				C_select <= "01";
+			end if;
+	end if;
+				--R-type ret
+	if((OP_code = "000") and (OPX = "1011")) then
+			if(current_state = "010") then
+			elsif(current_state = "011") then
+				PC_select<="00";
+				PC_enable<='1';
+			elsif (current_state = "100") then
+			elsif (current_state = "101") then
+			end if;
+	end if;	
 	
 	
+	
+	--I type addi
+	if (OP_code="011") then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			extend <= "00";
+			B_select <= '1'; 
+			ALU_op   <= "11"; 
+			A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+		elsif (current_state = "100") then
+			Y_select <= "00";
+		elsif (current_state = "101") then
+			RF_write <= '1'; 
+			C_select <= "00";
+		end if;
+	end if;
+	--I type ori
+	if (OP_code="100") then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			extend <= "00";
+			B_select <= '1'; 
+			ALU_op   <= "01"; 
+			A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+		elsif (current_state = "100") then
+			Y_select <= "00";
+		elsif (current_state = "101") then
+			RF_write <= '1'; 
+			C_select <= "00";
+		end if;
+	end if;
+	--I type orhi
+	if (OP_code="100") then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			extend <= "10";
+			B_select <= '1'; 
+			ALU_op   <= "01"; 
+			A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+		elsif (current_state = "100") then
+			Y_select <= "00";
+		elsif (current_state = "101") then
+			RF_write <= '1'; 
+			C_select <= "00";
+		end if;
+	end if;
+	--I type ldw
+	if (OP_code="001") then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			extend <= "00";
+			B_select <= '1'; 
+			ALU_op   <= "11"; 
+			A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+		elsif (current_state = "100") then
+			MA_select <= '0'; 
+			MEM_read <= '1'; MEM_write <= '0';
+			WMFC <= '1';
+			Y_select <= "01";
+		elsif (current_state = "101") then
+			RF_write <= '1'; 
+			C_select <= "00";
+		end if;
+	end if;
+	--I type stw
+	if (OP_code="010") then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			extend <= "00";
+			B_select <= '1'; 
+			ALU_op   <= "11"; 
+			A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+		elsif (current_state = "100") then
+			MA_select <= '0'; 
+			MEM_read <= '0'; MEM_write <= '1'; 
+			WMFC <= '1';
+		elsif (current_state = "101") then
+		end if;
+	end if;	
+	
+	
+	
+	--B type br
+	if ((OP_code="110" ) and (OPX = "0000")) then
+		if (current_state = "010") then
+		 elsif (current_state = "011") then
+			extend <= "00";
+			INC_select <= '1'; 
+			PC_select   <= "01"; 
+			PC_enable <= '1';
+		elsif (current_state = "100") then
+		elsif (current_state = "101") then
+		end if;
+	end if;
+	--B type beq
+	if ((OP_code="110" ) and (OPX = "0001")) then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			B_select <= '0';
+			ALU_op <= "11";
+			A_inv<='0'; B_inv<='1'; C_in<='1';
+			if (Z='1') then
+				extend <= "00";
+				INC_select <= '1'; 
+				PC_select   <= "01"; 
+				PC_enable <= '1';
+		end if;
+		elsif (current_state = "100") then
+		elsif (current_state = "101") then
+		end if;
+	end if;
+	--B type bne
+	if ((OP_code="110" ) and (OPX = "0010")) then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			B_select <= '0';
+			ALU_op <= "11";
+			A_inv<='0'; B_inv<='1'; C_in<='1';
+			if (Z='0') then
+				extend <= "00";
+				INC_select <= '1'; 
+				PC_select   <= "01"; 
+				PC_enable <= '1';
+		end if;
+		elsif (current_state = "100") then
+		elsif (current_state = "101") then
+		end if;
+	end if;
+	--B type bgeu
+	if ((OP_code="110" ) and (OPX = "0011")) then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			B_select <= '0';
+			ALU_op <= "11";
+			A_inv<='0'; B_inv<='1'; C_in<='1';
+			if (C='1') then
+				extend <= "01";
+				INC_select <= '1'; 
+				PC_select   <= "01"; 
+				PC_enable <= '1';
+		end if;
+		elsif (current_state = "100") then
+		elsif (current_state = "101") then
+		end if;
+	end if;
+	--B type bltu
+	if ((OP_code="110" ) and (OPX = "0100")) then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			B_select <= '0';
+			ALU_op <= "11";
+			A_inv<='0'; B_inv<='1'; C_in<='1';
+			if (C='0') then
+				extend <= "01";
+				INC_select <= '1'; 
+				PC_select   <= "01"; 
+				PC_enable <= '1';
+		end if;
+		elsif (current_state = "100") then
+		elsif (current_state = "101") then
+		end if;
+	end if;
+	--B type bgtu
+	if ((OP_code="110" ) and (OPX = "0101")) then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			B_select <= '0';
+			ALU_op <= "11";
+			A_inv<='0'; B_inv<='1'; C_in<='1';
+			if ((C='1') AND (Z = '1')) then
+				extend <= "01";
+				INC_select <= '1'; 
+				PC_select   <= "01"; 
+				PC_enable <= '1';
+		end if;
+		elsif (current_state = "100") then
+		elsif (current_state = "101") then
+		end if;
+	end if;
+	--B type bleu
+	if ((OP_code="110" ) and (OPX = "0110")) then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			B_select <= '0';
+			ALU_op <= "11";
+			A_inv<='0'; B_inv<='1'; C_in<='1';
+			if ((C='0') OR (Z = '1')) then
+				extend <= "01";
+				INC_select <= '1'; 
+				PC_select   <= "01"; 
+				PC_enable <= '1';
+		end if;
+		elsif (current_state = "100") then
+		elsif (current_state = "101") then
+		end if;
+	end if;
+	--B type bge
+	if ((OP_code="110" ) and (OPX = "0111")) then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			B_select <= '0';
+			ALU_op <= "11";
+			A_inv<='0'; B_inv<='1'; C_in<='1';
+			if (N = V) then
+				extend <= "00";
+				INC_select <= '1'; 
+				PC_select   <= "01"; 
+				PC_enable <= '1';
+		end if;
+		elsif (current_state = "100") then
+		elsif (current_state = "101") then
+		end if;
+	end if;
+	--B type blt
+	if ((OP_code="110" ) and (OPX = "1000")) then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			B_select <= '0';
+			ALU_op <= "11";
+			A_inv<='0'; B_inv<='1'; C_in<='1';
+			if (NOT(N=V)) then
+				extend <= "00";
+				INC_select <= '1'; 
+				PC_select   <= "01"; 
+				PC_enable <= '1';
+		end if;
+		elsif (current_state = "100") then
+		elsif (current_state = "101") then
+		end if;
+	end if;
+	--B type bgt
+	if ((OP_code="110" ) and (OPX = "1001")) then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			B_select <= '0';
+			ALU_op <= "11";
+			A_inv<='0'; B_inv<='1'; C_in<='1';
+			if ((N=V) AND (Z='0')) then
+				extend <= "00";
+				INC_select <= '1'; 
+				PC_select   <= "01"; 
+				PC_enable <= '1';
+		end if;
+		elsif (current_state = "100") then
+		elsif (current_state = "101") then
+		end if;
+	end if;
+	--B type ble
+	if ((OP_code="110" ) and (OPX = "1010")) then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			B_select <= '0';
+			ALU_op <= "11";
+			A_inv<='0'; B_inv<='1'; C_in<='1';
+			if (NOT(N=V) OR Z='1') then
+				extend <= "00";
+				INC_select <= '1'; 
+				PC_select   <= "01"; 
+				PC_enable <= '1';
+		end if;
+		elsif (current_state = "100") then
+		elsif (current_state = "101") then
+		end if;
+	end if;
+	
+	
+	
+	--J type call
+	if (OP_code="111") then
+		if (current_state = "010") then
+		elsif (current_state = "011") then
+			extend <= "11";
+			PC_select   <= "10"; 
+			PC_enable <= '1';
+		elsif (current_state = "100") then
+			Y_select <= "10";
+		elsif (current_state = "101") then
+			RF_write <= '1';
+			C_select <= "10";M
+		end if;
+	end if;
 	end process;
 	
 end implementation;
