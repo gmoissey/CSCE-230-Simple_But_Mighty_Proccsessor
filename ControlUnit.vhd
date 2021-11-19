@@ -215,13 +215,13 @@ begin
 				C_select <= "01";
 			end if;
 	end if;
-		--R-type nand ??
+		--R-type nand 
 	if((OP_code = "000") and (OPX = "0101")) then
 			if(current_state = "010") then
 			elsif(current_state = "011") then
 				B_select <= '0';
-				ALU_op <= "00";
-				A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+				ALU_op <= "01";
+				A_inv <= '1'; B_inv <= '1'; C_in <= '0';
 			elsif (current_state = "100") then
 				Y_select <= "00";
 			elsif (current_state = "101") then
@@ -229,13 +229,13 @@ begin
 				C_select <= "01";
 			end if;
 	end if;
-		--R-type nor??
+		--R-type nor
 	if((OP_code = "000") and (OPX = "0110")) then
 			if(current_state = "010") then
 			elsif(current_state = "011") then
 				B_select <= '0';
-				ALU_op <= "01";
-				A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+				ALU_op <= "00";
+				A_inv <= '1'; B_inv <= '1'; C_in <= '0';
 			elsif (current_state = "100") then
 				Y_select <= "00";
 			elsif (current_state = "101") then
@@ -243,13 +243,13 @@ begin
 				C_select <= "01";
 			end if;
 	end if;
-		--R-type nxor??
+		--R-type nxor TODO: maybe works??
 	if((OP_code = "000") and (OPX = "0111")) then
 			if(current_state = "010") then
 			elsif(current_state = "011") then
 				B_select <= '0';
 				ALU_op <= "10";
-				A_inv <= '0'; B_inv <= '0'; C_in <= '0';
+				A_inv <= '1'; B_inv <= '0'; C_in <= '0';
 			elsif (current_state = "100") then
 				Y_select <= "00";
 			elsif (current_state = "101") then
@@ -257,7 +257,7 @@ begin
 				C_select <= "01";
 			end if;
 	end if;
-			--R-type cmp??
+			--R-type cmp
 	if((OP_code = "000") and (OPX = "1000")) then
 			if(current_state = "010") then
 			elsif(current_state = "011") then
@@ -314,7 +314,7 @@ begin
 	if (OP_code="011") then
 		if (current_state = "010") then
 		elsif (current_state = "011") then
-			extend <= "00";
+			extend <= "000";
 			B_select <= '1'; 
 			ALU_op   <= "11"; 
 			A_inv <= '0'; B_inv <= '0'; C_in <= '0';
@@ -329,7 +329,7 @@ begin
 	if (OP_code="100") then
 		if (current_state = "010") then
 		elsif (current_state = "011") then
-			extend <= "00";
+			extend <= "000";
 			B_select <= '1'; 
 			ALU_op   <= "01"; 
 			A_inv <= '0'; B_inv <= '0'; C_in <= '0';
@@ -344,7 +344,7 @@ begin
 	if (OP_code="100") then
 		if (current_state = "010") then
 		elsif (current_state = "011") then
-			extend <= "10";
+			extend <= "010";
 			B_select <= '1'; 
 			ALU_op   <= "01"; 
 			A_inv <= '0'; B_inv <= '0'; C_in <= '0';
@@ -359,7 +359,7 @@ begin
 	if (OP_code="001") then
 		if (current_state = "010") then
 		elsif (current_state = "011") then
-			extend <= "00";
+			extend <= "000";
 			B_select <= '1'; 
 			ALU_op   <= "11"; 
 			A_inv <= '0'; B_inv <= '0'; C_in <= '0';
@@ -377,7 +377,7 @@ begin
 	if (OP_code="010") then
 		if (current_state = "010") then
 		elsif (current_state = "011") then
-			extend <= "00";
+			extend <= "000";
 			B_select <= '1'; 
 			ALU_op   <= "11"; 
 			A_inv <= '0'; B_inv <= '0'; C_in <= '0';
@@ -395,7 +395,7 @@ begin
 	if ((OP_code="110" ) and (OPX = "0000")) then
 		if (current_state = "010") then
 		 elsif (current_state = "011") then
-			extend <= "00";
+			extend <= "000";
 			INC_select <= '1'; 
 			PC_select   <= "01"; 
 			PC_enable <= '1';
@@ -411,7 +411,7 @@ begin
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
 			if (Z='1') then
-				extend <= "00";
+				extend <= "000";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -428,7 +428,7 @@ begin
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
 			if (Z='0') then
-				extend <= "00";
+				extend <= "000";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -445,7 +445,7 @@ begin
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
 			if (C='1') then
-				extend <= "01";
+				extend <= "001";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -462,7 +462,7 @@ begin
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
 			if (C='0') then
-				extend <= "01";
+				extend <= "001";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -478,8 +478,8 @@ begin
 			B_select <= '0';
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
-			if ((C='1') AND (Z = '1')) then
-				extend <= "01";
+			if ((C='1') AND (Z = '0')) then
+				extend <= "001";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -496,7 +496,7 @@ begin
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
 			if ((C='0') OR (Z = '1')) then
-				extend <= "01";
+				extend <= "001";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -513,7 +513,7 @@ begin
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
 			if (N = V) then
-				extend <= "00";
+				extend <= "011";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -530,7 +530,7 @@ begin
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
 			if (NOT(N=V)) then
-				extend <= "00";
+				extend <= "011";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -547,7 +547,7 @@ begin
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
 			if ((N=V) AND (Z='0')) then
-				extend <= "00";
+				extend <= "011";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -564,7 +564,7 @@ begin
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
 			if (NOT(N=V) OR Z='1') then
-				extend <= "00";
+				extend <= "011";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -580,14 +580,14 @@ begin
 	if (OP_code="111") then
 		if (current_state = "010") then
 		elsif (current_state = "011") then
-			extend <= "11";
+			extend <= "111";
 			PC_select   <= "10"; 
 			PC_enable <= '1';
 		elsif (current_state = "100") then
 			Y_select <= "10";
 		elsif (current_state = "101") then
 			RF_write <= '1';
-			C_select <= "10";M
+			C_select <= "10";
 		end if;
 	end if;
 	end process;
