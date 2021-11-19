@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Thu Nov 18 18:27:32 2021
+Analysis & Synthesis Status : Successful - Thu Nov 18 19:55:35 2021
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : SimpleComputer
 Top-level Entity Name : SimpleComputer
 Family : MAX 10
-Total logic elements : 680
-    Total combinational functions : 507
+Total logic elements : 689
+    Total combinational functions : 516
     Dedicated logic registers : 276
 Total registers : 276
 Total pins : 258

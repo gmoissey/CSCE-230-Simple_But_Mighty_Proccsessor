@@ -65,171 +65,171 @@
  ---------------------------------------------------------------------------------
 
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-CHIP  "SimpleComputer"  ASSIGNED TO AN: 10M50DCF484C7G
+CHIP  "SimpleComputer"  ASSIGNED TO AN: 10M50DAF484C7G
 
 Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
 -------------------------------------------------------------------------------------------------------------
 GND                          : A1        : gnd    :                   :         :           :                
-SW[0]                        : A2        : input  : 2.5 V             :         : 8         : N              
-debug_IR[2]                  : A3        : output : 2.5 V             :         : 8         : N              
-debug_r3[7]                  : A4        : output : 2.5 V             :         : 8         : N              
-debug_Extension[9]           : A5        : output : 2.5 V             :         : 8         : N              
-debug_RA[1]                  : A6        : output : 2.5 V             :         : 8         : N              
-debug_r3[10]                 : A7        : output : 2.5 V             :         : 7         : N              
-debug_RZ[0]                  : A8        : output : 2.5 V             :         : 7         : N              
-debug_RY[5]                  : A9        : output : 2.5 V             :         : 7         : N              
-debug_r1[7]                  : A10       : output : 2.5 V             :         : 7         : N              
-debug_Extension[12]          : A11       : output : 2.5 V             :         : 7         : N              
-debug_r4[5]                  : A12       : output : 2.5 V             :         : 7         : N              
-LEDR[0]                      : A13       : output : 2.5 V             :         : 7         : N              
-debug_r6[13]                 : A14       : output : 2.5 V             :         : 7         : N              
-debug_IR[13]                 : A15       : output : 2.5 V             :         : 7         : N              
-debug_RZ[11]                 : A16       : output : 2.5 V             :         : 7         : N              
-debug_RZ[6]                  : A17       : output : 2.5 V             :         : 7         : N              
-debug_r7[5]                  : A18       : output : 2.5 V             :         : 7         : N              
-debug_RZ[4]                  : A19       : output : 2.5 V             :         : 7         : N              
-debug_RZ[7]                  : A20       : output : 2.5 V             :         : 7         : N              
-HEX_DP[2]                    : A21       : output : 2.5 V             :         : 6         : N              
+debug_Extension[2]           : A2        : output : 2.5 V             :         : 8         : N              
+debug_RB[1]                  : A3        : output : 2.5 V             :         : 8         : N              
+debug_PC[15]                 : A4        : output : 2.5 V             :         : 8         : N              
+debug_state[2]               : A5        : output : 2.5 V             :         : 8         : N              
+debug_RA[12]                 : A6        : output : 2.5 V             :         : 8         : N              
+debug_Extension[0]           : A7        : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A8        :        :                   :         : 7         :                
+debug_RA[2]                  : A9        : output : 2.5 V             :         : 7         : N              
+debug_RY[7]                  : A10       : output : 2.5 V             :         : 7         : N              
+debug_IR[12]                 : A11       : output : 2.5 V             :         : 7         : N              
+debug_r2[0]                  : A12       : output : 2.5 V             :         : 7         : N              
+debug_r2[15]                 : A13       : output : 2.5 V             :         : 7         : N              
+debug_r3[7]                  : A14       : output : 2.5 V             :         : 7         : N              
+debug_r1[1]                  : A15       : output : 2.5 V             :         : 7         : N              
+debug_RY[11]                 : A16       : output : 2.5 V             :         : 7         : N              
+debug_r6[9]                  : A17       : output : 2.5 V             :         : 7         : N              
+debug_r7[11]                 : A18       : output : 2.5 V             :         : 7         : N              
+debug_r5[13]                 : A19       : output : 2.5 V             :         : 7         : N              
+debug_r6[11]                 : A20       : output : 2.5 V             :         : 7         : N              
+debug_r6[15]                 : A21       : output : 2.5 V             :         : 6         : N              
 GND                          : A22       : gnd    :                   :         :           :                
-debug_r5[10]                 : AA1       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA1       :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA2       :        :                   :         : 3         :                
-debug_RA[13]                 : AA3       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA3       :        :                   :         : 3         :                
 GND                          : AA4       : gnd    :                   :         :           :                
-debug_r5[6]                  : AA5       : output : 2.5 V             :         : 3         : N              
-debug_Extension[7]           : AA6       : output : 2.5 V             :         : 3         : N              
-debug_RZ[13]                 : AA7       : output : 2.5 V             :         : 3         : N              
-debug_r1[2]                  : AA8       : output : 2.5 V             :         : 3         : N              
-debug_r2[8]                  : AA9       : output : 2.5 V             :         : 3         : N              
-debug_r2[11]                 : AA10      : output : 2.5 V             :         : 3         : N              
-debug_Extension[0]           : AA11      : output : 2.5 V             :         : 4         : N              
-debug_r6[2]                  : AA12      : output : 2.5 V             :         : 4         : N              
-debug_RY[3]                  : AA13      : output : 2.5 V             :         : 4         : N              
-debug_r2[0]                  : AA14      : output : 2.5 V             :         : 4         : N              
-debug_RB[1]                  : AA15      : output : 2.5 V             :         : 4         : N              
-debug_r4[8]                  : AA16      : output : 2.5 V             :         : 4         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA17      :        :                   :         : 4         :                
+debug_PC[6]                  : AA5       : output : 2.5 V             :         : 3         : N              
+debug_RZ[0]                  : AA6       : output : 2.5 V             :         : 3         : N              
+debug_Extension[4]           : AA7       : output : 2.5 V             :         : 3         : N              
+debug_RZ[14]                 : AA8       : output : 2.5 V             :         : 3         : N              
+debug_PC[13]                 : AA9       : output : 2.5 V             :         : 3         : N              
+debug_PC[14]                 : AA10      : output : 2.5 V             :         : 3         : N              
+debug_PC[4]                  : AA11      : output : 2.5 V             :         : 4         : N              
+SW[7]                        : AA12      : input  : 2.5 V             :         : 4         : N              
+HEX_DP[1]                    : AA13      : output : 2.5 V             :         : 4         : N              
+debug_IR[2]                  : AA14      : output : 2.5 V             :         : 4         : N              
+KEY[1]                       : AA15      : input  : 2.5 V             :         : 4         : N              
+LEDR[0]                      : AA16      : output : 2.5 V             :         : 4         : N              
+debug_r2[14]                 : AA17      : output : 2.5 V             :         : 4         : N              
 GND                          : AA18      : gnd    :                   :         :           :                
-SW[8]                        : AA19      : input  : 2.5 V             :         : 4         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA20      :        :                   :         : 4         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA21      :        :                   :         : 5         :                
-debug_r6[8]                  : AA22      : output : 2.5 V             :         : 5         : N              
+debug_r2[5]                  : AA19      : output : 2.5 V             :         : 4         : N              
+debug_RZ[10]                 : AA20      : output : 2.5 V             :         : 4         : N              
+debug_r1[14]                 : AA21      : output : 2.5 V             :         : 5         : N              
+debug_r4[4]                  : AA22      : output : 2.5 V             :         : 5         : N              
 GND                          : AB1       : gnd    :                   :         :           :                
-debug_RY[2]                  : AB2       : output : 2.5 V             :         : 3         : N              
-debug_r1[11]                 : AB3       : output : 2.5 V             :         : 3         : N              
-HEX_DP[5]                    : AB4       : output : 2.5 V             :         : 3         : N              
-debug_RA[4]                  : AB5       : output : 2.5 V             :         : 3         : N              
-debug_IR[3]                  : AB6       : output : 2.5 V             :         : 3         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AB7       :        :                   :         : 3         :                
-debug_RZ[2]                  : AB8       : output : 2.5 V             :         : 3         : N              
-debug_r7[4]                  : AB9       : output : 2.5 V             :         : 3         : N              
-HEX_DP[1]                    : AB10      : output : 2.5 V             :         : 4         : N              
-LEDR[2]                      : AB11      : output : 2.5 V             :         : 4         : N              
-LEDR[8]                      : AB12      : output : 2.5 V             :         : 4         : N              
-debug_RZ[3]                  : AB13      : output : 2.5 V             :         : 4         : N              
-debug_r3[12]                 : AB14      : output : 2.5 V             :         : 4         : N              
-debug_r7[3]                  : AB15      : output : 2.5 V             :         : 4         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AB16      :        :                   :         : 4         :                
-debug_r4[14]                 : AB17      : output : 2.5 V             :         : 4         : N              
-debug_r6[12]                 : AB18      : output : 2.5 V             :         : 4         : N              
-debug_PC[3]                  : AB19      : output : 2.5 V             :         : 4         : N              
-debug_RZ[14]                 : AB20      : output : 2.5 V             :         : 4         : N              
-debug_PC[2]                  : AB21      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB2       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB3       :        :                   :         : 3         :                
+HEX_DP[0]                    : AB4       : output : 2.5 V             :         : 3         : N              
+debug_RZ[15]                 : AB5       : output : 2.5 V             :         : 3         : N              
+debug_RB[8]                  : AB6       : output : 2.5 V             :         : 3         : N              
+SW[8]                        : AB7       : input  : 2.5 V             :         : 3         : N              
+debug_PC[3]                  : AB8       : output : 2.5 V             :         : 3         : N              
+debug_PC[12]                 : AB9       : output : 2.5 V             :         : 3         : N              
+debug_PC[7]                  : AB10      : output : 2.5 V             :         : 4         : N              
+SW[4]                        : AB11      : input  : 2.5 V             :         : 4         : N              
+debug_RZ[7]                  : AB12      : output : 2.5 V             :         : 4         : N              
+debug_Extension[13]          : AB13      : output : 2.5 V             :         : 4         : N              
+HEX_DP[2]                    : AB14      : output : 2.5 V             :         : 4         : N              
+debug_IR[6]                  : AB15      : output : 2.5 V             :         : 4         : N              
+HEX_DP[3]                    : AB16      : output : 2.5 V             :         : 4         : N              
+debug_RY[14]                 : AB17      : output : 2.5 V             :         : 4         : N              
+debug_r6[10]                 : AB18      : output : 2.5 V             :         : 4         : N              
+debug_r3[0]                  : AB19      : output : 2.5 V             :         : 4         : N              
+HEX_DP[6]                    : AB20      : output : 2.5 V             :         : 4         : N              
+debug_RZ[13]                 : AB21      : output : 2.5 V             :         : 4         : N              
 GND                          : AB22      : gnd    :                   :         :           :                
-debug_r6[5]                  : B1        : output : 2.5 V             :         : 8         : N              
-debug_RY[6]                  : B2        : output : 2.5 V             :         : 8         : N              
-debug_r2[15]                 : B3        : output : 2.5 V             :         : 8         : N              
-debug_r4[7]                  : B4        : output : 2.5 V             :         : 8         : N              
-SW[7]                        : B5        : input  : 2.5 V             :         : 8         : N              
+SW[2]                        : B1        : input  : 2.5 V             :         : 8         : N              
+debug_Extension[10]          : B2        : output : 2.5 V             :         : 8         : N              
+debug_RZ[9]                  : B3        : output : 2.5 V             :         : 8         : N              
+debug_r2[11]                 : B4        : output : 2.5 V             :         : 8         : N              
+debug_RB[0]                  : B5        : output : 2.5 V             :         : 8         : N              
 GND                          : B6        : gnd    :                   :         :           :                
-SW[6]                        : B7        : input  : 2.5 V             :         : 8         : N              
-debug_RZ[9]                  : B8        : output : 2.5 V             :         : 7         : N              
+debug_IR[15]                 : B7        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B8        :        :                   :         : 7         :                
 GND                          : B9        : gnd    :                   :         :           :                
-debug_RB[3]                  : B10       : output : 2.5 V             :         : 7         : N              
-debug_Extension[15]          : B11       : output : 2.5 V             :         : 7         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : B12       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B10       :        :                   :         : 7         :                
+debug_Extension[9]           : B11       : output : 2.5 V             :         : 7         : N              
+debug_RB[11]                 : B12       : output : 2.5 V             :         : 7         : N              
 GND                          : B13       : gnd    :                   :         :           :                
-debug_Extension[13]          : B14       : output : 2.5 V             :         : 7         : N              
-debug_RY[9]                  : B15       : output : 2.5 V             :         : 7         : N              
-debug_RY[4]                  : B16       : output : 2.5 V             :         : 7         : N              
-debug_IR[8]                  : B17       : output : 2.5 V             :         : 7         : N              
+debug_r1[5]                  : B14       : output : 2.5 V             :         : 7         : N              
+debug_r3[12]                 : B15       : output : 2.5 V             :         : 7         : N              
+debug_r3[4]                  : B16       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B17       :        :                   :         : 7         :                
 GND                          : B18       : gnd    :                   :         :           :                
-debug_r1[4]                  : B19       : output : 2.5 V             :         : 7         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : B20       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B21       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B22       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C1        :        :                   :         : 1B        :                
-HEX_DP[3]                    : C2        : output : 2.5 V             :         : 8         : N              
-debug_RY[11]                 : C3        : output : 2.5 V             :         : 8         : N              
-debug_RB[9]                  : C4        : output : 2.5 V             :         : 8         : N              
-debug_RA[10]                 : C5        : output : 2.5 V             :         : 8         : N              
-debug_r6[9]                  : C6        : output : 2.5 V             :         : 8         : N              
-debug_RB[14]                 : C7        : output : 2.5 V             :         : 8         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 8         :                
-HEX_DP[0]                    : C9        : output : 2.5 V             :         : 7         : N              
-debug_PC[15]                 : C10       : output : 2.5 V             :         : 7         : N              
-debug_r7[0]                  : C11       : output : 2.5 V             :         : 7         : N              
-debug_r6[10]                 : C12       : output : 2.5 V             :         : 7         : N              
-debug_RA[9]                  : C13       : output : 2.5 V             :         : 7         : N              
-debug_RB[12]                 : C14       : output : 2.5 V             :         : 7         : N              
-LEDR[3]                      : C15       : output : 2.5 V             :         : 7         : N              
-LEDR[4]                      : C16       : output : 2.5 V             :         : 7         : N              
-debug_r3[5]                  : C17       : output : 2.5 V             :         : 7         : N              
-debug_r7[2]                  : C18       : output : 2.5 V             :         : 7         : N              
-debug_r7[9]                  : C19       : output : 2.5 V             :         : 7         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : C20       :        :                   :         : 6         :                
-debug_Extension[1]           : C21       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : C22       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : D1        :        :                   :         : 1B        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : D2        :        :                   :         : 1B        :                
-debug_PC[10]                 : D3        : output : 2.5 V             :         : 1B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B19       :        :                   :         : 7         :                
+debug_r4[3]                  : B20       : output : 2.5 V             :         : 6         : N              
+debug_r6[3]                  : B21       : output : 2.5 V             :         : 6         : N              
+debug_r4[1]                  : B22       : output : 2.5 V             :         : 6         : N              
+debug_r1[13]                 : C1        : output : 2.5 V             :         : 1B        : N              
+debug_Extension[3]           : C2        : output : 2.5 V             :         : 8         : N              
+LEDR[8]                      : C3        : output : 2.5 V             :         : 8         : N              
+debug_Extension[11]          : C4        : output : 2.5 V             :         : 8         : N              
+debug_RB[5]                  : C5        : output : 2.5 V             :         : 8         : N              
+debug_RB[7]                  : C6        : output : 2.5 V             :         : 8         : N              
+debug_RA[9]                  : C7        : output : 2.5 V             :         : 8         : N              
+debug_IR[3]                  : C8        : output : 2.5 V             :         : 8         : N              
+debug_RA[5]                  : C9        : output : 2.5 V             :         : 7         : N              
+debug_RB[10]                 : C10       : output : 2.5 V             :         : 7         : N              
+debug_r3[5]                  : C11       : output : 2.5 V             :         : 7         : N              
+debug_r2[9]                  : C12       : output : 2.5 V             :         : 7         : N              
+debug_r1[12]                 : C13       : output : 2.5 V             :         : 7         : N              
+debug_r3[1]                  : C14       : output : 2.5 V             :         : 7         : N              
+debug_RY[0]                  : C15       : output : 2.5 V             :         : 7         : N              
+debug_RY[9]                  : C16       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C17       :        :                   :         : 7         :                
+debug_r7[3]                  : C18       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C19       :        :                   :         : 7         :                
+debug_r2[6]                  : C20       : output : 2.5 V             :         : 6         : N              
+debug_r7[2]                  : C21       : output : 2.5 V             :         : 6         : N              
+debug_r6[5]                  : C22       : output : 2.5 V             :         : 6         : N              
+debug_r1[4]                  : D1        : output : 2.5 V             :         : 1B        : N              
+debug_r3[9]                  : D2        : output : 2.5 V             :         : 1B        : N              
+debug_r3[11]                 : D3        : output : 2.5 V             :         : 1B        : N              
 GND                          : D4        : gnd    :                   :         :           :                
-debug_r6[1]                  : D5        : output : 2.5 V             :         : 8         : N              
-debug_IR[7]                  : D6        : output : 2.5 V             :         : 8         : N              
-debug_RA[2]                  : D7        : output : 2.5 V             :         : 8         : N              
-debug_IR[1]                  : D8        : output : 2.5 V             :         : 8         : N              
-LEDR[9]                      : D9        : output : 2.5 V             :         : 8         : N              
-debug_RB[5]                  : D10       : output : 2.5 V             :         : 8         : N              
+debug_RB[6]                  : D5        : output : 2.5 V             :         : 8         : N              
+debug_RB[14]                 : D6        : output : 2.5 V             :         : 8         : N              
+debug_RZ[3]                  : D7        : output : 2.5 V             :         : 8         : N              
+debug_RB[15]                 : D8        : output : 2.5 V             :         : 8         : N              
+debug_RZ[6]                  : D9        : output : 2.5 V             :         : 8         : N              
+debug_r2[13]                 : D10       : output : 2.5 V             :         : 8         : N              
 GND                          : D11       : gnd    :                   :         :           :                
-debug_RB[15]                 : D12       : output : 2.5 V             :         : 7         : N              
-SW[9]                        : D13       : input  : 2.5 V             :         : 7         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : D14       :        :                   :         : 7         :                
-debug_r6[4]                  : D15       : output : 2.5 V             :         : 7         : N              
+debug_RY[5]                  : D12       : output : 2.5 V             :         : 7         : N              
+debug_r3[15]                 : D13       : output : 2.5 V             :         : 7         : N              
+debug_r2[3]                  : D14       : output : 2.5 V             :         : 7         : N              
+debug_r5[0]                  : D15       : output : 2.5 V             :         : 7         : N              
 GND                          : D16       : gnd    :                   :         :           :                
-debug_r1[3]                  : D17       : output : 2.5 V             :         : 7         : N              
-debug_PC[5]                  : D18       : output : 2.5 V             :         : 6         : N              
-debug_r6[6]                  : D19       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D17       :        :                   :         : 7         :                
+debug_r4[0]                  : D18       : output : 2.5 V             :         : 6         : N              
+debug_r2[4]                  : D19       : output : 2.5 V             :         : 6         : N              
 GND                          : D20       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : D21       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : D22       :        :                   :         : 6         :                
+debug_r1[3]                  : D21       : output : 2.5 V             :         : 6         : N              
+debug_r7[9]                  : D22       : output : 2.5 V             :         : 6         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : E1        :        :                   :         : 1B        :                
 GND                          : E2        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E3        :        :                   :         : 1A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E4        :        :                   :         : 1A        :                
 NC                           : E5        :        :                   :         :           :                
-debug_r3[8]                  : E6        : output : 2.5 V             :         : 8         : N              
+debug_Extension[15]          : E6        : output : 2.5 V             :         : 8         : N              
 GND                          : E7        : gnd    :                   :         :           :                
-debug_RY[7]                  : E8        : output : 2.5 V             :         : 8         : N              
-SW[5]                        : E9        : input  : 2.5 V             :         : 8         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : E10       :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E11       :        :                   :         : 8         :                
-debug_RA[7]                  : E12       : output : 2.5 V             :         : 7         : N              
-debug_RA[15]                 : E13       : output : 2.5 V             :         : 7         : N              
-debug_r2[2]                  : E14       : output : 2.5 V             :         : 7         : N              
+debug_RB[13]                 : E8        : output : 2.5 V             :         : 8         : N              
+debug_PC[11]                 : E9        : output : 2.5 V             :         : 8         : N              
+debug_IR[5]                  : E10       : output : 2.5 V             :         : 8         : N              
+debug_RY[3]                  : E11       : output : 2.5 V             :         : 8         : N              
+debug_r3[3]                  : E12       : output : 2.5 V             :         : 7         : N              
+debug_r1[9]                  : E13       : output : 2.5 V             :         : 7         : N              
+debug_RY[8]                  : E14       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : E15       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E16       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E17       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E18       :        :                   :         : 6         :                
-debug_IR[10]                 : E19       : output : 2.5 V             :         : 6         : N              
-debug_RZ[1]                  : E20       : output : 2.5 V             :         : 6         : N              
-debug_RB[4]                  : E21       : output : 2.5 V             :         : 6         : N              
-debug_r7[1]                  : E22       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : F1        :        :                   :         : 1B        :                
+debug_r7[15]                 : E17       : output : 2.5 V             :         : 6         : N              
+debug_r7[1]                  : E18       : output : 2.5 V             :         : 6         : N              
+debug_r7[6]                  : E19       : output : 2.5 V             :         : 6         : N              
+debug_r5[5]                  : E20       : output : 2.5 V             :         : 6         : N              
+debug_r6[2]                  : E21       : output : 2.5 V             :         : 6         : N              
+debug_r5[8]                  : E22       : output : 2.5 V             :         : 6         : N              
+debug_Extension[5]           : F1        : output : 2.5 V             :         : 1B        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : F2        :        :                   :         : 1B        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F3        :        :                   :         : 1A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F4        :        :                   :         : 1A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F5        :        :                   :         : 1A        :                
 NC                           : F6        :        :                   :         :           :                
-debug_r3[2]                  : F7        : output : 2.5 V             :         : 8         : N              
+debug_RB[4]                  : F7        : output : 2.5 V             :         : 8         : N              
 ~ALTERA_CONF_DONE~ / RESERVED_INPUT : F8        : input  : 2.5 V Schmitt Trigger :         : 8         : N              
 VCCIO8                       : F9        : power  :                   : 2.5V    : 8         :                
 GND                          : F10       : gnd    :                   :         :           :                
@@ -237,19 +237,19 @@ VCCIO8                       : F11       : power  :                   : 2.5V    
 VCCIO7                       : F12       : power  :                   : 2.5V    : 7         :                
 GND                          : F13       : gnd    :                   :         :           :                
 VCCIO7                       : F14       : power  :                   : 2.5V    : 7         :                
-debug_r2[13]                 : F15       : output : 2.5 V             :         : 7         : N              
-debug_r4[0]                  : F16       : output : 2.5 V             :         : 7         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : F17       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F18       :        :                   :         : 6         :                
-debug_r4[1]                  : F19       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : F20       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F21       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F22       :        :                   :         : 6         :                
-debug_IR[12]                 : G1        : output : 2.5 V             :         : 1B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F15       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F16       :        :                   :         : 7         :                
+debug_r6[0]                  : F17       : output : 2.5 V             :         : 6         : N              
+debug_r3[13]                 : F18       : output : 2.5 V             :         : 6         : N              
+debug_r7[5]                  : F19       : output : 2.5 V             :         : 6         : N              
+debug_r5[15]                 : F20       : output : 2.5 V             :         : 6         : N              
+debug_r4[13]                 : F21       : output : 2.5 V             :         : 6         : N              
+debug_r5[11]                 : F22       : output : 2.5 V             :         : 6         : N              
+SW[6]                        : G1        : input  : 2.5 V             :         : 1B        : N              
 ~ALTERA_TCK~ / RESERVED_INPUT : G2        : input  : 2.5 V Schmitt Trigger :         : 1B        : N              
-debug_PC[11]                 : G3        : output : 2.5 V             :         : 1A        : N              
-debug_PC[0]                  : G4        : output : 2.5 V             :         : 1A        : N              
-GND                          : G5        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G3        :        :                   :         : 1A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G4        :        :                   :         : 1A        :                
+ANAIN1                       : G5        :        :                   :         :           :                
 GND                          : G6        : gnd    :                   :         :           :                
 VCCD_PLL3                    : G7        : power  :                   : 1.2V    :           :                
 GND                          : G8        : gnd    :                   :         :           :                
@@ -261,80 +261,80 @@ VCCIO7                       : G13       : power  :                   : 2.5V    
 VCCIO7                       : G14       : power  :                   : 2.5V    : 7         :                
 GND                          : G15       : gnd    :                   :         :           :                
 VCCD_PLL2                    : G16       : power  :                   : 1.2V    :           :                
-debug_IR[5]                  : G17       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G17       :        :                   :         : 6         :                
 GND                          : G18       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : G19       :        :                   :         : 6         :                
-debug_Extension[3]           : G20       : output : 2.5 V             :         : 6         : N              
+debug_r4[11]                 : G19       : output : 2.5 V             :         : 6         : N              
+debug_r4[5]                  : G20       : output : 2.5 V             :         : 6         : N              
 GND                          : G21       : gnd    :                   :         :           :                
-debug_IR[11]                 : G22       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : H1        :        :                   :         : 1B        :                
+debug_r4[7]                  : G22       : output : 2.5 V             :         : 6         : N              
+debug_Extension[6]           : H1        : output : 2.5 V             :         : 1B        : N              
 ~ALTERA_TMS~ / RESERVED_INPUT_WITH_WEAK_PULLUP : H2        : input  : 2.5 V Schmitt Trigger :         : 1B        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : H3        :        :                   :         : 1A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H4        :        :                   :         : 1A        :                
-GND                          : H5        : gnd    :                   :         :           :                
-VCCA3                        : H6        : power  :                   : 2.5V    :           :                
-VCCA3                        : H7        : power  :                   : 2.5V    :           :                
+REFGND                       : H5        :        :                   :         :           :                
+ADC_VREF                     : H6        :        :                   :         :           :                
+VCCA_ADC                     : H7        : power  :                   : 2.5V    :           :                
 VCCA3                        : H8        : power  :                   : 2.5V    :           :                
 ~ALTERA_nCONFIG~ / RESERVED_INPUT : H9        : input  : 2.5 V Schmitt Trigger :         : 8         : N              
 ~ALTERA_CONFIG_SEL~ / RESERVED_INPUT : H10       : input  : 2.5 V             :         : 8         : N              
-debug_RA[14]                 : H11       : output : 2.5 V             :         : 8         : N              
-debug_r5[5]                  : H12       : output : 2.5 V             :         : 7         : N              
-debug_r2[14]                 : H13       : output : 2.5 V             :         : 7         : N              
-debug_r7[12]                 : H14       : output : 2.5 V             :         : 7         : N              
+debug_IR[8]                  : H11       : output : 2.5 V             :         : 8         : N              
+debug_RA[0]                  : H12       : output : 2.5 V             :         : 7         : N              
+LEDR[4]                      : H13       : output : 2.5 V             :         : 7         : N              
+debug_r3[10]                 : H14       : output : 2.5 V             :         : 7         : N              
 VCCA2                        : H15       : power  :                   : 2.5V    :           :                
 VCCIO6                       : H16       : power  :                   : 2.5V    : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : H17       :        :                   :         : 6         :                
-HEX_DP[7]                    : H18       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : H19       :        :                   :         : 6         :                
-debug_r4[15]                 : H20       : output : 2.5 V             :         : 6         : N              
-debug_RA[8]                  : H21       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : H22       :        :                   :         : 6         :                
-debug_r5[15]                 : J1        : output : 2.5 V             :         : 1B        : N              
+debug_r6[7]                  : H17       : output : 2.5 V             :         : 6         : N              
+debug_r1[2]                  : H18       : output : 2.5 V             :         : 6         : N              
+debug_r5[4]                  : H19       : output : 2.5 V             :         : 6         : N              
+debug_r5[1]                  : H20       : output : 2.5 V             :         : 6         : N              
+debug_r5[10]                 : H21       : output : 2.5 V             :         : 6         : N              
+debug_r4[6]                  : H22       : output : 2.5 V             :         : 6         : N              
+SW[3]                        : J1        : input  : 2.5 V             :         : 1B        : N              
 GND                          : J2        : gnd    :                   :         :           :                
-SW[4]                        : J3        : input  : 2.5 V             :         : 1A        : N              
-debug_IR[4]                  : J4        : output : 2.5 V             :         : 1A        : N              
-GND                          : J5        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J3        :        :                   :         : 1A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J4        :        :                   :         : 1A        :                
+ANAIN2                       : J5        :        :                   :         :           :                
 GND                          : J6        : gnd    :                   :         :           :                
-VCC                          : J7        : power  :                   : 1.2V    :           :                
-debug_RY[8]                  : J8        : output : 2.5 V             :         : 1A        : N              
+VCCINT                       : J7        : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J8        :        :                   :         : 1A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J9        :        :                   :         : 1A        :                
-debug_r6[0]                  : J10       : output : 2.5 V             :         : 8         : N              
-debug_Extension[11]          : J11       : output : 2.5 V             :         : 7         : N              
-LEDR[6]                      : J12       : output : 2.5 V             :         : 7         : N              
-debug_r4[4]                  : J13       : output : 2.5 V             :         : 7         : N              
+debug_IR[9]                  : J10       : output : 2.5 V             :         : 8         : N              
+debug_IR[7]                  : J11       : output : 2.5 V             :         : 7         : N              
+SW[9]                        : J12       : input  : 2.5 V             :         : 7         : N              
+debug_r1[15]                 : J13       : output : 2.5 V             :         : 7         : N              
 debug_r7[7]                  : J14       : output : 2.5 V             :         : 6         : N              
-debug_RB[11]                 : J15       : output : 2.5 V             :         : 6         : N              
+debug_r6[1]                  : J15       : output : 2.5 V             :         : 6         : N              
 GND                          : J16       : gnd    :                   :         :           :                
 VCCIO6                       : J17       : power  :                   : 2.5V    : 6         :                
-HEX_DP[4]                    : J18       : output : 2.5 V             :         : 6         : N              
+debug_r5[3]                  : J18       : output : 2.5 V             :         : 6         : N              
 GND                          : J19       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J20       :        :                   :         : 6         :                
-debug_PC[6]                  : J21       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : J22       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K1        :        :                   :         : 1B        :                
-debug_IR[9]                  : K2        : output : 2.5 V             :         : 1B        : N              
+debug_r1[0]                  : J20       : output : 2.5 V             :         : 6         : N              
+debug_RY[2]                  : J21       : output : 2.5 V             :         : 6         : N              
+debug_RY[15]                 : J22       : output : 2.5 V             :         : 6         : N              
+debug_RB[12]                 : K1        : output : 2.5 V             :         : 1B        : N              
+debug_RB[2]                  : K2        : output : 2.5 V             :         : 1B        : N              
 GND                          : K3        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : K4        :        :                   :         : 1A        :                
-debug_r1[14]                 : K5        : output : 2.5 V             :         : 1A        : N              
-debug_r7[10]                 : K6        : output : 2.5 V             :         : 1A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K5        :        :                   :         : 1A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K6        :        :                   :         : 1A        :                
 VCCIO1A                      : K7        : power  :                   : 2.5V    : 1A        :                
-debug_r5[13]                 : K8        : output : 2.5 V             :         : 1B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K8        :        :                   :         : 1B        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : K9        :        :                   :         : 1B        :                
 GND                          : K10       : gnd    :                   :         :           :                
 VCC                          : K11       : power  :                   : 1.2V    :           :                
 GND                          : K12       : gnd    :                   :         :           :                
 VCC                          : K13       : power  :                   : 1.2V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K14       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K15       :        :                   :         : 6         :                
+debug_r2[1]                  : K14       : output : 2.5 V             :         : 6         : N              
+debug_r4[15]                 : K15       : output : 2.5 V             :         : 6         : N              
 VCCIO6                       : K16       : power  :                   : 2.5V    : 6         :                
 VCCIO6                       : K17       : power  :                   : 2.5V    : 6         :                
-debug_r1[5]                  : K18       : output : 2.5 V             :         : 6         : N              
-LEDR[7]                      : K19       : output : 2.5 V             :         : 6         : N              
-debug_IR[15]                 : K20       : output : 2.5 V             :         : 6         : N              
-debug_RA[0]                  : K21       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : K22       :        :                   :         : 6         :                
-debug_Extension[14]          : L1        : output : 2.5 V             :         : 1B        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : L2        :        :                   :         : 1B        :                
+debug_r7[0]                  : K18       : output : 2.5 V             :         : 6         : N              
+debug_r4[9]                  : K19       : output : 2.5 V             :         : 6         : N              
+debug_r5[9]                  : K20       : output : 2.5 V             :         : 6         : N              
+debug_RY[13]                 : K21       : output : 2.5 V             :         : 6         : N              
+debug_IR[14]                 : K22       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L1        :        :                   :         : 1B        :                
+debug_r2[7]                  : L2        : output : 2.5 V             :         : 1B        : N              
 DNU                          : L3        :        :                   :         :           :                
 ~ALTERA_TDI~ / RESERVED_INPUT_WITH_WEAK_PULLUP : L4        : input  : 2.5 V Schmitt Trigger :         : 1B        : N              
 GND                          : L5        : gnd    :                   :         :           :                
@@ -346,19 +346,19 @@ VCC                          : L10       : power  :                   : 1.2V    
 VCC                          : L11       : power  :                   : 1.2V    :           :                
 VCC                          : L12       : power  :                   : 1.2V    :           :                
 GND                          : L13       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L14       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L15       :        :                   :         : 6         :                
+debug_r6[12]                 : L14       : output : 2.5 V             :         : 6         : N              
+debug_r4[12]                 : L15       : output : 2.5 V             :         : 6         : N              
 VCCIO6                       : L16       : power  :                   : 2.5V    : 6         :                
 GND                          : L17       : gnd    :                   :         :           :                
-debug_r2[4]                  : L18       : output : 2.5 V             :         : 6         : N              
-LEDR[5]                      : L19       : output : 2.5 V             :         : 6         : N              
-SW[3]                        : L20       : input  : 2.5 V             :         : 6         : N              
+debug_r1[6]                  : L18       : output : 2.5 V             :         : 6         : N              
+debug_r4[10]                 : L19       : output : 2.5 V             :         : 6         : N              
+debug_r4[2]                  : L20       : output : 2.5 V             :         : 6         : N              
 GND                          : L21       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : L22       :        :                   :         : 5         :                
-SW[2]                        : M1        : input  : 2.5 V             :         : 2         : N              
-debug_PC[7]                  : M2        : output : 2.5 V             :         : 2         : N              
-debug_r2[9]                  : M3        : output : 2.5 V             :         : 1B        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : M4        :        :                   :         : 1B        :                
+debug_r6[6]                  : L22       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M1        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M2        :        :                   :         : 2         :                
+debug_Extension[14]          : M3        : output : 2.5 V             :         : 1B        : N              
+debug_RB[3]                  : M4        : output : 2.5 V             :         : 1B        : N              
 ~ALTERA_TDO~                 : M5        : output : 2.5 V             :         : 1B        : N              
 VCCIO1B                      : M6        : power  :                   : 2.5V    : 1B        :                
 GND                          : M7        : gnd    :                   :         :           :                
@@ -368,87 +368,87 @@ GND                          : M10       : gnd    :                   :         
 VCC                          : M11       : power  :                   : 1.2V    :           :                
 VCC                          : M12       : power  :                   : 1.2V    :           :                
 VCC                          : M13       : power  :                   : 1.2V    :           :                
-debug_r6[7]                  : M14       : output : 2.5 V             :         : 6         : N              
-debug_r2[6]                  : M15       : output : 2.5 V             :         : 6         : N              
+debug_r6[4]                  : M14       : output : 2.5 V             :         : 6         : N              
+debug_r5[2]                  : M15       : output : 2.5 V             :         : 6         : N              
 GND                          : M16       : gnd    :                   :         :           :                
 VCCIO6                       : M17       : power  :                   : 2.5V    : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : M18       :        :                   :         : 6         :                
+debug_r6[13]                 : M18       : output : 2.5 V             :         : 6         : N              
 GND                          : M19       : gnd    :                   :         :           :                
-debug_PC[12]                 : M20       : output : 2.5 V             :         : 6         : N              
-debug_r6[3]                  : M21       : output : 2.5 V             :         : 5         : N              
-debug_Extension[4]           : M22       : output : 2.5 V             :         : 5         : N              
+debug_RY[1]                  : M20       : output : 2.5 V             :         : 6         : N              
+debug_IR[13]                 : M21       : output : 2.5 V             :         : 5         : N              
+debug_RY[10]                 : M22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : N1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N2        :        :                   :         : 2         :                
-debug_PC[13]                 : N3        : output : 2.5 V             :         : 2         : N              
-debug_r3[11]                 : N4        : output : 2.5 V             :         : 2         : N              
-debug_r5[4]                  : N5        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N3        :        :                   :         : 2         :                
+debug_state[0]               : N4        : output : 2.5 V             :         : 2         : N              
+debug_PC[9]                  : N5        : output : 2.5 V             :         : 2         : N              
 VCCIO2                       : N6        : power  :                   : 2.5V    : 2         :                
 VCCIO2                       : N7        : power  :                   : 2.5V    : 2         :                
-debug_RA[3]                  : N8        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N8        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N9        :        :                   :         : 2         :                
 VCC                          : N10       : power  :                   : 1.2V    :           :                
 GND                          : N11       : gnd    :                   :         :           :                
 VCC                          : N12       : power  :                   : 1.2V    :           :                
 GND                          : N13       : gnd    :                   :         :           :                
-debug_r5[1]                  : N14       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : N15       :        :                   :         : 6         :                
+debug_r4[14]                 : N14       : output : 2.5 V             :         : 6         : N              
+debug_r6[14]                 : N15       : output : 2.5 V             :         : 6         : N              
 VCCIO5                       : N16       : power  :                   : 2.5V    : 5         :                
 VCCIO6                       : N17       : power  :                   : 2.5V    : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N18       :        :                   :         : 6         :                
-debug_RZ[12]                 : N19       : output : 2.5 V             :         : 6         : N              
-debug_RY[15]                 : N20       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : N21       :        :                   :         : 5         :                
-debug_RY[10]                 : N22       : output : 2.5 V             :         : 5         : N              
+debug_RY[4]                  : N18       : output : 2.5 V             :         : 6         : N              
+debug_r5[14]                 : N19       : output : 2.5 V             :         : 6         : N              
+debug_r5[7]                  : N20       : output : 2.5 V             :         : 6         : N              
+debug_r7[14]                 : N21       : output : 2.5 V             :         : 5         : N              
+debug_RA[6]                  : N22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : P1        :        :                   :         : 2         :                
 GND                          : P2        : gnd    :                   :         :           :                
-debug_r7[11]                 : P3        : output : 2.5 V             :         : 2         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : P4        :        :                   :         : 2         :                
-debug_PC[1]                  : P5        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P3        :        :                   :         : 2         :                
+debug_RZ[4]                  : P4        : output : 2.5 V             :         : 2         : N              
+debug_RZ[11]                 : P5        : output : 2.5 V             :         : 2         : N              
 GND                          : P6        : gnd    :                   :         :           :                
 VCCIO2                       : P7        : power  :                   : 2.5V    : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P8        :        :                   :         : 2         :                
-debug_r1[15]                 : P9        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P9        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P10       :        :                   :         : 3         :                
-debug_PC[14]                 : P11       : output : 2.5 V             :         : 3         : N              
-debug_r1[13]                 : P12       : output : 2.5 V             :         : 4         : N              
-debug_r5[2]                  : P13       : output : 2.5 V             :         : 4         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : P14       :        :                   :         : 5         :                
-debug_RB[10]                 : P15       : output : 2.5 V             :         : 5         : N              
+debug_PC[2]                  : P11       : output : 2.5 V             :         : 3         : N              
+debug_Extension[12]          : P12       : output : 2.5 V             :         : 4         : N              
+debug_IR[0]                  : P13       : output : 2.5 V             :         : 4         : N              
+debug_IR[10]                 : P14       : output : 2.5 V             :         : 5         : N              
+debug_RZ[1]                  : P15       : output : 2.5 V             :         : 5         : N              
 VCCIO5                       : P16       : power  :                   : 2.5V    : 5         :                
 GND                          : P17       : gnd    :                   :         :           :                
-debug_r5[0]                  : P18       : output : 2.5 V             :         : 5         : N              
-debug_r1[6]                  : P19       : output : 2.5 V             :         : 5         : N              
-debug_RB[0]                  : P20       : output : 2.5 V             :         : 5         : N              
-debug_PC[4]                  : P21       : output : 2.5 V             :         : 5         : N              
-debug_r5[11]                 : P22       : output : 2.5 V             :         : 5         : N              
-debug_r3[6]                  : R1        : output : 2.5 V             :         : 2         : N              
+LEDR[7]                      : P18       : output : 2.5 V             :         : 5         : N              
+debug_RA[1]                  : P19       : output : 2.5 V             :         : 5         : N              
+debug_RY[6]                  : P20       : output : 2.5 V             :         : 5         : N              
+debug_RA[14]                 : P21       : output : 2.5 V             :         : 5         : N              
+debug_RA[10]                 : P22       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R2        :        :                   :         : 2         :                
-debug_PC[9]                  : R3        : output : 2.5 V             :         : 2         : N              
-KEY[1]                       : R4        : input  : 2.5 V             :         : 2         : N              
-debug_r4[6]                  : R5        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R4        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R5        :        :                   :         : 2         :                
 VCCIO2                       : R6        : power  :                   : 2.5V    : 2         :                
-debug_RB[8]                  : R7        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R7        :        :                   :         : 2         :                
 VCCA1                        : R8        : power  :                   : 2.5V    :           :                
-debug_r3[13]                 : R9        : output : 2.5 V             :         : 3         : N              
-debug_PC[8]                  : R10       : output : 2.5 V             :         : 3         : N              
-debug_r3[3]                  : R11       : output : 2.5 V             :         : 3         : N              
-debug_Extension[6]           : R12       : output : 2.5 V             :         : 4         : N              
-debug_Extension[10]          : R13       : output : 2.5 V             :         : 4         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : R14       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : R15       :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : R9        :        :                   :         : 3         :                
+debug_RB[9]                  : R10       : output : 2.5 V             :         : 3         : N              
+debug_RZ[5]                  : R11       : output : 2.5 V             :         : 3         : N              
+debug_Extension[8]           : R12       : output : 2.5 V             :         : 4         : N              
+debug_RA[8]                  : R13       : output : 2.5 V             :         : 4         : N              
+debug_r6[8]                  : R14       : output : 2.5 V             :         : 5         : N              
+debug_RA[4]                  : R15       : output : 2.5 V             :         : 5         : N              
 VCCIO5                       : R16       : power  :                   : 2.5V    : 5         :                
 VCCIO5                       : R17       : power  :                   : 2.5V    : 5         :                
-debug_r1[10]                 : R18       : output : 2.5 V             :         : 5         : N              
+debug_IR[11]                 : R18       : output : 2.5 V             :         : 5         : N              
 GND                          : R19       : gnd    :                   :         :           :                
-debug_RZ[15]                 : R20       : output : 2.5 V             :         : 5         : N              
+debug_RA[3]                  : R20       : output : 2.5 V             :         : 5         : N              
 GND                          : R21       : gnd    :                   :         :           :                
-debug_r7[15]                 : R22       : output : 2.5 V             :         : 5         : N              
-debug_r5[7]                  : T1        : output : 2.5 V             :         : 2         : N              
-debug_IR[14]                 : T2        : output : 2.5 V             :         : 2         : N              
+debug_r2[8]                  : R22       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T1        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 2         :                
 GND                          : T4        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T5        :        :                   :         : 2         :                
-debug_Extension[5]           : T6        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T6        :        :                   :         : 2         :                
 VCCD_PLL1                    : T7        : power  :                   : 1.2V    :           :                
 GND                          : T8        : gnd    :                   :         :           :                
 VCCIO3                       : T9        : power  :                   : 2.5V    : 3         :                
@@ -460,18 +460,18 @@ GND                          : T14       : gnd    :                   :         
 VCCA4                        : T15       : power  :                   : 2.5V    :           :                
 GND                          : T16       : gnd    :                   :         :           :                
 VCCIO5                       : T17       : power  :                   : 2.5V    : 5         :                
-debug_RA[6]                  : T18       : output : 2.5 V             :         : 5         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : T19       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T20       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T21       :        :                   :         : 5         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T22       :        :                   :         : 5         :                
-debug_r5[12]                 : U1        : output : 2.5 V             :         : 2         : N              
-debug_r3[9]                  : U2        : output : 2.5 V             :         : 2         : N              
+debug_IR[1]                  : T18       : output : 2.5 V             :         : 5         : N              
+debug_r5[6]                  : T19       : output : 2.5 V             :         : 5         : N              
+debug_RZ[2]                  : T20       : output : 2.5 V             :         : 5         : N              
+debug_r7[4]                  : T21       : output : 2.5 V             :         : 5         : N              
+debug_r7[10]                 : T22       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U1        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U3        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U4        :        :                   :         : 2         :                
-debug_RY[0]                  : U5        : output : 2.5 V             :         : 2         : N              
-debug_IR[6]                  : U6        : output : 2.5 V             :         : 3         : N              
-debug_RB[2]                  : U7        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U5        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U6        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U7        :        :                   :         : 3         :                
 VCCIO3                       : U8        : power  :                   : 2.5V    : 3         :                
 VCCIO3                       : U9        : power  :                   : 2.5V    : 3         :                
 GND                          : U10       : gnd    :                   :         :           :                
@@ -479,77 +479,77 @@ VCCIO4                       : U11       : power  :                   : 2.5V    
 VCCIO4                       : U12       : power  :                   : 2.5V    : 4         :                
 GND                          : U13       : gnd    :                   :         :           :                
 VCCIO4                       : U14       : power  :                   : 2.5V    : 4         :                
-debug_r2[12]                 : U15       : output : 2.5 V             :         : 4         : N              
+HEX_DP[4]                    : U15       : output : 2.5 V             :         : 4         : N              
 VCCD_PLL4                    : U16       : power  :                   : 1.2V    :           :                
-debug_Extension[2]           : U17       : output : 2.5 V             :         : 5         : N              
-HEX_DP[6]                    : U18       : output : 2.5 V             :         : 5         : N              
-debug_r6[14]                 : U19       : output : 2.5 V             :         : 5         : N              
-debug_RB[13]                 : U20       : output : 2.5 V             :         : 5         : N              
-debug_RY[12]                 : U21       : output : 2.5 V             :         : 5         : N              
-debug_RZ[8]                  : U22       : output : 2.5 V             :         : 5         : N              
-debug_r2[3]                  : V1        : output : 2.5 V             :         : 2         : N              
+debug_r3[8]                  : U17       : output : 2.5 V             :         : 5         : N              
+debug_r7[8]                  : U18       : output : 2.5 V             :         : 5         : N              
+debug_RZ[12]                 : U19       : output : 2.5 V             :         : 5         : N              
+debug_r3[6]                  : U20       : output : 2.5 V             :         : 5         : N              
+debug_r1[10]                 : U21       : output : 2.5 V             :         : 5         : N              
+debug_r4[8]                  : U22       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V1        :        :                   :         : 2         :                
 GND                          : V2        : gnd    :                   :         :           :                
-debug_r2[10]                 : V3        : output : 2.5 V             :         : 2         : N              
-debug_state[2]               : V4        : output : 2.5 V             :         : 3         : N              
-debug_state[1]               : V5        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V4        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V5        :        :                   :         : 3         :                
 GND                          : V6        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V7        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V8        :        :                   :         : 3         :                
-debug_r1[0]                  : V9        : output : 2.5 V             :         : 3         : N              
-debug_r2[1]                  : V10       : output : 2.5 V             :         : 3         : N              
-debug_r5[3]                  : V11       : output : 2.5 V             :         : 4         : N              
-debug_r7[13]                 : V12       : output : 2.5 V             :         : 4         : N              
-debug_r3[4]                  : V13       : output : 2.5 V             :         : 4         : N              
-debug_RY[14]                 : V14       : output : 2.5 V             :         : 4         : N              
-debug_r5[8]                  : V15       : output : 2.5 V             :         : 4         : N              
-debug_r7[6]                  : V16       : output : 2.5 V             :         : 4         : N              
-debug_RZ[5]                  : V17       : output : 2.5 V             :         : 4         : N              
-debug_r3[0]                  : V18       : output : 2.5 V             :         : 5         : N              
+debug_PC[5]                  : V9        : output : 2.5 V             :         : 3         : N              
+debug_RZ[8]                  : V10       : output : 2.5 V             :         : 3         : N              
+debug_RA[13]                 : V11       : output : 2.5 V             :         : 4         : N              
+SW[0]                        : V12       : input  : 2.5 V             :         : 4         : N              
+debug_PC[0]                  : V13       : output : 2.5 V             :         : 4         : N              
+SW[1]                        : V14       : input  : 2.5 V             :         : 4         : N              
+debug_r1[11]                 : V15       : output : 2.5 V             :         : 4         : N              
+debug_state[1]               : V16       : output : 2.5 V             :         : 4         : N              
+debug_RA[15]                 : V17       : output : 2.5 V             :         : 4         : N              
+debug_r2[10]                 : V18       : output : 2.5 V             :         : 5         : N              
 GND                          : V19       : gnd    :                   :         :           :                
-debug_RZ[10]                 : V20       : output : 2.5 V             :         : 5         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : V21       :        :                   :         : 5         :                
-debug_RA[5]                  : V22       : output : 2.5 V             :         : 5         : N              
+debug_RA[11]                 : V20       : output : 2.5 V             :         : 5         : N              
+debug_r3[2]                  : V21       : output : 2.5 V             :         : 5         : N              
+debug_r2[12]                 : V22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : W1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W2        :        :                   :         : 2         :                
-debug_IR[0]                  : W3        : output : 2.5 V             :         : 3         : N              
-debug_r4[11]                 : W4        : output : 2.5 V             :         : 3         : N              
-debug_state[0]               : W5        : output : 2.5 V             :         : 3         : N              
-debug_r3[1]                  : W6        : output : 2.5 V             :         : 3         : N              
-debug_r5[14]                 : W7        : output : 2.5 V             :         : 3         : N              
-debug_r4[10]                 : W8        : output : 2.5 V             :         : 3         : N              
-SW[1]                        : W9        : input  : 2.5 V             :         : 3         : N              
-debug_r6[15]                 : W10       : output : 2.5 V             :         : 3         : N              
-debug_Extension[8]           : W11       : output : 2.5 V             :         : 4         : N              
-debug_RY[1]                  : W12       : output : 2.5 V             :         : 4         : N              
-debug_r1[8]                  : W13       : output : 2.5 V             :         : 4         : N              
-debug_RA[11]                 : W14       : output : 2.5 V             :         : 4         : N              
-debug_r3[14]                 : W15       : output : 2.5 V             :         : 4         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : W16       :        :                   :         : 4         :                
-debug_r2[7]                  : W17       : output : 2.5 V             :         : 4         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : W18       :        :                   :         : 4         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : W19       :        :                   :         : 5         :                
-debug_r1[1]                  : W20       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W3        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W4        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W5        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W6        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W7        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W8        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W9        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W10       :        :                   :         : 3         :                
+debug_Extension[1]           : W11       : output : 2.5 V             :         : 4         : N              
+debug_PC[8]                  : W12       : output : 2.5 V             :         : 4         : N              
+debug_PC[1]                  : W13       : output : 2.5 V             :         : 4         : N              
+debug_IR[4]                  : W14       : output : 2.5 V             :         : 4         : N              
+LEDR[5]                      : W15       : output : 2.5 V             :         : 4         : N              
+debug_r2[2]                  : W16       : output : 2.5 V             :         : 4         : N              
+debug_r5[12]                 : W17       : output : 2.5 V             :         : 4         : N              
+debug_r1[7]                  : W18       : output : 2.5 V             :         : 4         : N              
+LEDR[1]                      : W19       : output : 2.5 V             :         : 5         : N              
+LEDR[2]                      : W20       : output : 2.5 V             :         : 5         : N              
 GND                          : W21       : gnd    :                   :         :           :                
-debug_r3[15]                 : W22       : output : 2.5 V             :         : 5         : N              
-debug_RB[6]                  : Y1        : output : 2.5 V             :         : 3         : N              
-debug_RA[12]                 : Y2        : output : 2.5 V             :         : 3         : N              
-debug_r1[12]                 : Y3        : output : 2.5 V             :         : 3         : N              
-debug_RY[13]                 : Y4        : output : 2.5 V             :         : 3         : N              
-debug_r7[8]                  : Y5        : output : 2.5 V             :         : 3         : N              
-debug_r7[14]                 : Y6        : output : 2.5 V             :         : 3         : N              
+debug_r1[8]                  : W22       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y1        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y2        :        :                   :         : 3         :                
+debug_Extension[7]           : Y3        : output : 2.5 V             :         : 3         : N              
+LEDR[6]                      : Y4        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y5        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y6        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y7        :        :                   :         : 3         :                
-debug_r1[9]                  : Y8        : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y8        :        :                   :         : 3         :                
 GND                          : Y9        : gnd    :                   :         :           :                
-debug_r4[12]                 : Y10       : output : 2.5 V             :         : 3         : N              
-debug_r4[9]                  : Y11       : output : 2.5 V             :         : 4         : N              
+debug_PC[10]                 : Y10       : output : 2.5 V             :         : 3         : N              
+SW[5]                        : Y11       : input  : 2.5 V             :         : 4         : N              
 GND                          : Y12       : gnd    :                   :         :           :                
-debug_r6[11]                 : Y13       : output : 2.5 V             :         : 4         : N              
-debug_r5[9]                  : Y14       : output : 2.5 V             :         : 4         : N              
+debug_RA[7]                  : Y13       : output : 2.5 V             :         : 4         : N              
+LEDR[9]                      : Y14       : output : 2.5 V             :         : 4         : N              
 GND                          : Y15       : gnd    :                   :         :           :                
-debug_r2[5]                  : Y16       : output : 2.5 V             :         : 4         : N              
-debug_r4[3]                  : Y17       : output : 2.5 V             :         : 4         : N              
-debug_r4[2]                  : Y18       : output : 2.5 V             :         : 4         : N              
-debug_RB[7]                  : Y19       : output : 2.5 V             :         : 4         : N              
-LEDR[1]                      : Y20       : output : 2.5 V             :         : 5         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : Y21       :        :                   :         : 5         :                
-debug_r4[13]                 : Y22       : output : 2.5 V             :         : 5         : N              
+HEX_DP[7]                    : Y16       : output : 2.5 V             :         : 4         : N              
+HEX_DP[5]                    : Y17       : output : 2.5 V             :         : 4         : N              
+debug_r7[13]                 : Y18       : output : 2.5 V             :         : 4         : N              
+debug_RY[12]                 : Y19       : output : 2.5 V             :         : 4         : N              
+debug_r7[12]                 : Y20       : output : 2.5 V             :         : 5         : N              
+LEDR[3]                      : Y21       : output : 2.5 V             :         : 5         : N              
+debug_r3[14]                 : Y22       : output : 2.5 V             :         : 5         : N              

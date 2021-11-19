@@ -1,5 +1,5 @@
 Analysis & Synthesis report for SimpleComputer
-Thu Nov 18 18:27:33 2021
+Thu Nov 18 19:55:35 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -39,9 +39,10 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
  31. Port Connectivity Checks: "SimpleProcessor:P|Mux4Input16Bit:MuxPC"
  32. Port Connectivity Checks: "SimpleProcessor:P|Adder16Bit:Adder"
  33. Port Connectivity Checks: "SimpleProcessor:P|Mux2Input16Bit:MuxINC"
- 34. Post-Synthesis Netlist Statistics for Top Partition
- 35. Elapsed Time Per Partition
- 36. Analysis & Synthesis Messages
+ 34. Port Connectivity Checks: "SimpleProcessor:P"
+ 35. Post-Synthesis Netlist Statistics for Top Partition
+ 36. Elapsed Time Per Partition
+ 37. Analysis & Synthesis Messages
 
 
 
@@ -67,13 +68,13 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 18 18:27:32 2021           ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 18 19:55:35 2021           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                      ; SimpleComputer                                  ;
 ; Top-level Entity Name              ; SimpleComputer                                  ;
 ; Family                             ; MAX 10                                          ;
-; Total logic elements               ; 680                                             ;
-;     Total combinational functions  ; 507                                             ;
+; Total logic elements               ; 689                                             ;
+;     Total combinational functions  ; 516                                             ;
 ;     Dedicated logic registers      ; 276                                             ;
 ; Total registers                    ; 276                                             ;
 ; Total pins                         ; 258                                             ;
@@ -91,7 +92,7 @@ refer to the applicable agreement for further details.
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
-; Device                                                           ; 10M50DCF484C7G     ;                    ;
+; Device                                                           ; 10M50DAF484C7G     ;                    ;
 ; Top-level entity name                                            ; SimpleComputer     ; SimpleComputer     ;
 ; Family name                                                      ; MAX 10             ; Cyclone V          ;
 ; VHDL Show LMF Mapping Messages                                   ; Off                ;                    ;
@@ -224,7 +225,7 @@ refer to the applicable agreement for further details.
 ; altram.inc                       ; yes             ; Megafunction                           ; c:/intelfpga/18.1/quartus/libraries/megafunctions/altram.inc            ;         ;
 ; altdpram.inc                     ; yes             ; Megafunction                           ; c:/intelfpga/18.1/quartus/libraries/megafunctions/altdpram.inc          ;         ;
 ; db/altsyncram_71e1.tdf           ; yes             ; Auto-Generated Megafunction            ; C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf   ;         ;
-; MemoryInitialization.mif         ; yes             ; Auto-Found Memory Initialization File  ; C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryInitialization.mif ;         ;
+; memoryinitialization.mif         ; yes             ; Auto-Found Memory Initialization File  ; C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/memoryinitialization.mif ;         ;
 +----------------------------------+-----------------+----------------------------------------+-------------------------------------------------------------------------+---------+
 
 
@@ -233,16 +234,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 680         ;
+; Estimated Total logic elements              ; 689         ;
 ;                                             ;             ;
-; Total combinational functions               ; 507         ;
+; Total combinational functions               ; 516         ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 393         ;
-;     -- 3 input functions                    ; 93          ;
-;     -- <=2 input functions                  ; 21          ;
+;     -- 4 input functions                    ; 402         ;
+;     -- 3 input functions                    ; 90          ;
+;     -- <=2 input functions                  ; 24          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 507         ;
+;     -- normal mode                          ; 516         ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
 ; Total registers                             ; 276         ;
@@ -256,8 +257,8 @@ refer to the applicable agreement for further details.
 ;                                             ;             ;
 ; Maximum fan-out node                        ; clock~input ;
 ; Maximum fan-out                             ; 292         ;
-; Total fan-out                               ; 3683        ;
-; Average fan-out                             ; 2.80        ;
+; Total fan-out                               ; 3732        ;
+; Average fan-out                             ; 2.82        ;
 +---------------------------------------------+-------------+
 
 
@@ -266,8 +267,8 @@ refer to the applicable agreement for further details.
 +----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------------------------------------------------+----------------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                                      ; Entity Name          ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------------------------------------------------+----------------------+--------------+
-; |SimpleComputer                              ; 507 (0)             ; 276 (0)                   ; 65536       ; 0          ; 0            ; 0       ; 0         ; 258  ; 0            ; 0          ; |SimpleComputer                                                                                                          ; SimpleComputer       ; work         ;
-;    |MemoryIOInterface:MemIO|                 ; 31 (31)             ; 29 (0)                    ; 65536       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO                                                                                  ; MemoryIOInterface    ; work         ;
+; |SimpleComputer                              ; 516 (0)             ; 276 (0)                   ; 65536       ; 0          ; 0            ; 0       ; 0         ; 258  ; 0            ; 0          ; |SimpleComputer                                                                                                          ; SimpleComputer       ; work         ;
+;    |MemoryIOInterface:MemIO|                 ; 30 (30)             ; 29 (0)                    ; 65536       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO                                                                                  ; MemoryIOInterface    ; work         ;
 ;       |MainMemory:Memory|                    ; 0 (0)               ; 0 (0)                     ; 65536       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO|MainMemory:Memory                                                                ; MainMemory           ; work         ;
 ;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 65536       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO|MainMemory:Memory|altsyncram:altsyncram_component                                ; altsyncram           ; work         ;
 ;             |altsyncram_71e1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 65536       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO|MainMemory:Memory|altsyncram:altsyncram_component|altsyncram_71e1:auto_generated ; altsyncram_71e1      ; work         ;
@@ -304,18 +305,18 @@ refer to the applicable agreement for further details.
 ;          |Reg1Bit:bit7|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO|Reg16Bit:SliderSwitch|Reg1Bit:bit7                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit8|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO|Reg16Bit:SliderSwitch|Reg1Bit:bit8                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit9|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO|Reg16Bit:SliderSwitch|Reg1Bit:bit9                                               ; Reg1Bit              ; work         ;
-;    |SimpleProcessor:P|                       ; 476 (0)             ; 247 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P                                                                                        ; SimpleProcessor      ; work         ;
+;    |SimpleProcessor:P|                       ; 486 (0)             ; 247 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P                                                                                        ; SimpleProcessor      ; work         ;
 ;       |ALU:ALU_S|                            ; 106 (17)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S                                                                              ; ALU                  ; work         ;
 ;          |Adder16Bit:A1|                     ; 25 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1                                                                ; Adder16Bit           ; work         ;
 ;             |Adder1Bit:S0|                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S0                                                   ; Adder1Bit            ; work         ;
-;             |Adder1Bit:S10|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S10                                                  ; Adder1Bit            ; work         ;
+;             |Adder1Bit:S10|                  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S10                                                  ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S11|                  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S11                                                  ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S12|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S12                                                  ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S13|                  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S13                                                  ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S14|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S14                                                  ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S15|                  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S15                                                  ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S1|                   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S1                                                   ; Adder1Bit            ; work         ;
-;             |Adder1Bit:S2|                   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S2                                                   ; Adder1Bit            ; work         ;
+;             |Adder1Bit:S2|                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S2                                                   ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S3|                   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S3                                                   ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S4|                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S4                                                   ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S5|                   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S5                                                   ; Adder1Bit            ; work         ;
@@ -343,10 +344,10 @@ refer to the applicable agreement for further details.
 ;          |Adder1Bit:S7|                      ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Adder16Bit:Adder|Adder1Bit:S7                                                          ; Adder1Bit            ; work         ;
 ;          |Adder1Bit:S8|                      ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Adder16Bit:Adder|Adder1Bit:S8                                                          ; Adder1Bit            ; work         ;
 ;          |Adder1Bit:S9|                      ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Adder16Bit:Adder|Adder1Bit:S9                                                          ; Adder1Bit            ; work         ;
-;       |ControlUnit:Control|                  ; 87 (87)             ; 3 (3)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ControlUnit:Control                                                                    ; ControlUnit          ; work         ;
+;       |ControlUnit:Control|                  ; 96 (96)             ; 3 (3)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ControlUnit:Control                                                                    ; ControlUnit          ; work         ;
 ;       |Immediate:ImmediateExt|               ; 30 (30)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Immediate:ImmediateExt                                                                 ; Immediate            ; work         ;
 ;       |Mux2Input16Bit:MuxMA|                 ; 13 (13)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Mux2Input16Bit:MuxMA                                                                   ; Mux2Input16Bit       ; work         ;
-;       |Mux4Input3Bit:MuxC|                   ; 4 (4)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Mux4Input3Bit:MuxC                                                                     ; Mux4Input3Bit        ; work         ;
+;       |Mux4Input3Bit:MuxC|                   ; 3 (3)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Mux4Input3Bit:MuxC                                                                     ; Mux4Input3Bit        ; work         ;
 ;       |Reg16Bit:IR|                          ; 0 (0)               ; 16 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:IR                                                                            ; Reg16Bit             ; work         ;
 ;          |Reg1Bit:bit0|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:IR|Reg1Bit:bit0                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit10|                     ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:IR|Reg1Bit:bit10                                                              ; Reg1Bit              ; work         ;
@@ -405,13 +406,13 @@ refer to the applicable agreement for further details.
 ;          |Reg1Bit:bit12|                     ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit12                                                              ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit13|                     ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit13                                                              ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit14|                     ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit14                                                              ; Reg1Bit              ; work         ;
-;          |Reg1Bit:bit15|                     ; 2 (2)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit15                                                              ; Reg1Bit              ; work         ;
+;          |Reg1Bit:bit15|                     ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit15                                                              ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit1|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit1                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit2|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit2                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit3|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit3                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit4|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit4                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit5|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit5                                                               ; Reg1Bit              ; work         ;
-;          |Reg1Bit:bit6|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit6                                                               ; Reg1Bit              ; work         ;
+;          |Reg1Bit:bit6|                      ; 2 (2)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit6                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit7|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit7                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit8|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit8                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit9|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit9                                                               ; Reg1Bit              ; work         ;
@@ -423,10 +424,10 @@ refer to the applicable agreement for further details.
 ;          |Reg1Bit:bit13|                     ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit13                                                              ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit14|                     ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit14                                                              ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit15|                     ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit15                                                              ; Reg1Bit              ; work         ;
-;          |Reg1Bit:bit1|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit1                                                               ; Reg1Bit              ; work         ;
+;          |Reg1Bit:bit1|                      ; 2 (2)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit1                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit2|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit2                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit3|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit3                                                               ; Reg1Bit              ; work         ;
-;          |Reg1Bit:bit4|                      ; 2 (2)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit4                                                               ; Reg1Bit              ; work         ;
+;          |Reg1Bit:bit4|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit4                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit5|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit5                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit6|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit6                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit7|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit7                                                               ; Reg1Bit              ; work         ;
@@ -449,8 +450,8 @@ refer to the applicable agreement for further details.
 ;          |Reg1Bit:bit7|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RM|Reg1Bit:bit7                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit8|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RM|Reg1Bit:bit8                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit9|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RM|Reg1Bit:bit9                                                               ; Reg1Bit              ; work         ;
-;       |Reg16Bit:RY|                          ; 16 (0)              ; 16 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RY                                                                            ; Reg16Bit             ; work         ;
-;          |Reg1Bit:bit0|                      ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RY|Reg1Bit:bit0                                                               ; Reg1Bit              ; work         ;
+;       |Reg16Bit:RY|                          ; 17 (0)              ; 16 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RY                                                                            ; Reg16Bit             ; work         ;
+;          |Reg1Bit:bit0|                      ; 2 (2)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RY|Reg1Bit:bit0                                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit10|                     ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RY|Reg1Bit:bit10                                                              ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit11|                     ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RY|Reg1Bit:bit11                                                              ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit12|                     ; 1 (1)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RY|Reg1Bit:bit12                                                              ; Reg1Bit              ; work         ;
@@ -488,7 +489,7 @@ refer to the applicable agreement for further details.
 ;          |Reg1Bit:bit1|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:Status|Reg1Bit:bit1                                                           ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit2|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:Status|Reg1Bit:bit2                                                           ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit3|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:Status|Reg1Bit:bit3                                                           ; Reg1Bit              ; work         ;
-;       |RegisterFile8by16Bit:Reg_File|        ; 169 (9)             ; 112 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|RegisterFile8by16Bit:Reg_File                                                          ; RegisterFile8by16Bit ; work         ;
+;       |RegisterFile8by16Bit:Reg_File|        ; 170 (10)            ; 112 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|RegisterFile8by16Bit:Reg_File                                                          ; RegisterFile8by16Bit ; work         ;
 ;          |Mux8Input16Bit:M1|                 ; 80 (80)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|RegisterFile8by16Bit:Reg_File|Mux8Input16Bit:M1                                        ; Mux8Input16Bit       ; work         ;
 ;          |Mux8Input16Bit:M2|                 ; 80 (80)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|RegisterFile8by16Bit:Reg_File|Mux8Input16Bit:M2                                        ; Mux8Input16Bit       ; work         ;
 ;          |Reg16Bit:R1|                       ; 0 (0)               ; 16 (0)                    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|RegisterFile8by16Bit:Reg_File|Reg16Bit:R1                                              ; Reg16Bit             ; work         ;
@@ -659,7 +660,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
 ; Total registers                              ; 276   ;
-; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Clear  ; 16    ;
 ; Number of registers using Synchronous Load   ; 32    ;
 ; Number of registers using Asynchronous Clear ; 265   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
@@ -668,25 +669,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                         ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                               ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------+
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:PC|Reg1Bit:bit6|Q             ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RZ|Reg1Bit:bit11|Q            ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RY|Reg1Bit:bit7|Q             ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; Yes        ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit4|Q             ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; Yes        ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit15|Q            ;
-; 3:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; No         ; |SimpleComputer|MemoryIOInterface:MemIO|Data_out[9]                      ;
-; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |SimpleComputer|SimpleProcessor:P|Mux4Input3Bit:MuxC|Mux2                ;
-; 5:1                ; 7 bits    ; 21 LEs        ; 14 LEs               ; 7 LEs                  ; No         ; |SimpleComputer|SimpleProcessor:P|Immediate:ImmediateExt|Mux15           ;
-; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |SimpleComputer|SimpleProcessor:P|Immediate:ImmediateExt|Mux7            ;
-; 5:1                ; 6 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; No         ; |SimpleComputer|SimpleProcessor:P|Immediate:ImmediateExt|Mux2            ;
-; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Mux2Input16Bit:M2|result[12] ;
-; 10:1               ; 2 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |SimpleComputer|SimpleProcessor:P|ControlUnit:Control|ALU_op             ;
-; 50:1               ; 2 bits    ; 66 LEs        ; 10 LEs               ; 56 LEs                 ; No         ; |SimpleComputer|SimpleProcessor:P|ControlUnit:Control|C_in               ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                              ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------+
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:PC|Reg1Bit:bit6|Q            ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RZ|Reg1Bit:bit5|Q            ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RY|Reg1Bit:bit0|Q            ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; Yes        ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RB|Reg1Bit:bit1|Q            ;
+; 8:1                ; 16 bits   ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; Yes        ; |SimpleComputer|SimpleProcessor:P|Reg16Bit:RA|Reg1Bit:bit6|Q            ;
+; 3:1                ; 9 bits    ; 18 LEs        ; 18 LEs               ; 0 LEs                  ; No         ; |SimpleComputer|MemoryIOInterface:MemIO|Data_out[0]                     ;
+; 4:1                ; 3 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |SimpleComputer|SimpleProcessor:P|Mux4Input3Bit:MuxC|Mux0               ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 14 LEs               ; 7 LEs                  ; No         ; |SimpleComputer|SimpleProcessor:P|Immediate:ImmediateExt|Mux13          ;
+; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; No         ; |SimpleComputer|SimpleProcessor:P|Immediate:ImmediateExt|Mux8           ;
+; 5:1                ; 6 bits    ; 18 LEs        ; 12 LEs               ; 6 LEs                  ; No         ; |SimpleComputer|SimpleProcessor:P|Immediate:ImmediateExt|Mux4           ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Mux2Input16Bit:M2|result[6] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------+
@@ -959,6 +958,15 @@ Note: In order to hide this table in the UI and the text report file, please set
 +---------------+-------+----------+----------------------------------+
 
 
++-----------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "SimpleProcessor:P"                                                                                           ;
++----------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                                                  ;
++----------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; debug_bs ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
@@ -967,20 +975,20 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; boundary_port         ; 258                         ;
 ; cycloneiii_ff         ; 276                         ;
 ;     CLR               ; 83                          ;
-;     CLR SLD           ; 16                          ;
+;     CLR SCLR SLD      ; 16                          ;
 ;     ENA CLR           ; 150                         ;
 ;     ENA CLR SLD       ; 16                          ;
 ;     plain             ; 11                          ;
-; cycloneiii_lcell_comb ; 515                         ;
-;     normal            ; 515                         ;
+; cycloneiii_lcell_comb ; 524                         ;
+;     normal            ; 524                         ;
 ;         1 data inputs ; 8                           ;
-;         2 data inputs ; 21                          ;
-;         3 data inputs ; 93                          ;
-;         4 data inputs ; 393                         ;
+;         2 data inputs ; 24                          ;
+;         3 data inputs ; 90                          ;
+;         4 data inputs ; 402                         ;
 ; cycloneiii_ram_block  ; 16                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 25.00                       ;
-; Average LUT depth     ; 8.78                        ;
+; Average LUT depth     ; 9.03                        ;
 +-----------------------+-----------------------------+
 
 
@@ -999,12 +1007,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Thu Nov 18 18:27:12 2021
+    Info: Processing started: Thu Nov 18 19:55:15 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SimpleComputer -c SimpleComputer
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file simpleprocessor.vhd
-    Info (12022): Found design unit 1: SimpleProcessor-implementation File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 50
+    Info (12022): Found design unit 1: SimpleProcessor-implementation File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 51
     Info (12023): Found entity 1: SimpleProcessor File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 21
 Info (12021): Found 2 design units, including 1 entities, in source file simplecomputer.vhd
     Info (12022): Found design unit 1: SimpleComputer-implementation File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd Line: 47
@@ -1056,21 +1064,21 @@ Info (12021): Found 2 design units, including 1 entities, in source file adder1b
     Info (12023): Found entity 1: Adder1Bit File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd Line: 21
 Info (12127): Elaborating entity "SimpleComputer" for the top level hierarchy
 Info (12128): Elaborating entity "SimpleProcessor" for hierarchy "SimpleProcessor:P" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd Line: 98
-Warning (10036): Verilog HDL or VHDL warning at SimpleProcessor.vhd(179): object "C_out_14" assigned a value but never read File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 179
-Warning (10036): Verilog HDL or VHDL warning at SimpleProcessor.vhd(180): object "C_out_15" assigned a value but never read File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 180
-Info (12128): Elaborating entity "Reg16Bit" for hierarchy "SimpleProcessor:P|Reg16Bit:IR" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 193
+Warning (10036): Verilog HDL or VHDL warning at SimpleProcessor.vhd(180): object "C_out_14" assigned a value but never read File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 180
+Warning (10036): Verilog HDL or VHDL warning at SimpleProcessor.vhd(181): object "C_out_15" assigned a value but never read File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 181
+Info (12128): Elaborating entity "Reg16Bit" for hierarchy "SimpleProcessor:P|Reg16Bit:IR" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 195
 Info (12128): Elaborating entity "Reg1Bit" for hierarchy "SimpleProcessor:P|Reg16Bit:IR|Reg1Bit:bit0" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd Line: 42
-Info (12128): Elaborating entity "Immediate" for hierarchy "SimpleProcessor:P|Immediate:ImmediateExt" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 194
-Info (12128): Elaborating entity "Mux2Input16Bit" for hierarchy "SimpleProcessor:P|Mux2Input16Bit:MuxINC" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 195
-Info (12128): Elaborating entity "Adder16Bit" for hierarchy "SimpleProcessor:P|Adder16Bit:Adder" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 196
+Info (12128): Elaborating entity "Immediate" for hierarchy "SimpleProcessor:P|Immediate:ImmediateExt" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 196
+Info (12128): Elaborating entity "Mux2Input16Bit" for hierarchy "SimpleProcessor:P|Mux2Input16Bit:MuxINC" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 197
+Info (12128): Elaborating entity "Adder16Bit" for hierarchy "SimpleProcessor:P|Adder16Bit:Adder" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 198
 Info (12128): Elaborating entity "Adder1Bit" for hierarchy "SimpleProcessor:P|Adder16Bit:Adder|Adder1Bit:S0" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd Line: 39
-Info (12128): Elaborating entity "Mux4Input16Bit" for hierarchy "SimpleProcessor:P|Mux4Input16Bit:MuxPC" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 197
-Info (12128): Elaborating entity "Mux4Input3Bit" for hierarchy "SimpleProcessor:P|Mux4Input3Bit:MuxC" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 201
-Info (12128): Elaborating entity "RegisterFile8by16Bit" for hierarchy "SimpleProcessor:P|RegisterFile8by16Bit:Reg_File" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 202
+Info (12128): Elaborating entity "Mux4Input16Bit" for hierarchy "SimpleProcessor:P|Mux4Input16Bit:MuxPC" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 199
+Info (12128): Elaborating entity "Mux4Input3Bit" for hierarchy "SimpleProcessor:P|Mux4Input3Bit:MuxC" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 203
+Info (12128): Elaborating entity "RegisterFile8by16Bit" for hierarchy "SimpleProcessor:P|RegisterFile8by16Bit:Reg_File" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 204
 Info (12128): Elaborating entity "Decoder3Bit" for hierarchy "SimpleProcessor:P|RegisterFile8by16Bit:Reg_File|Decoder3Bit:D1" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd Line: 65
 Info (12128): Elaborating entity "Mux8Input16Bit" for hierarchy "SimpleProcessor:P|RegisterFile8by16Bit:Reg_File|Mux8Input16Bit:M1" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd Line: 74
-Info (12128): Elaborating entity "ALU" for hierarchy "SimpleProcessor:P|ALU:ALU_S" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 224
-Info (12128): Elaborating entity "ControlUnit" for hierarchy "SimpleProcessor:P|ControlUnit:Control" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 244
+Info (12128): Elaborating entity "ALU" for hierarchy "SimpleProcessor:P|ALU:ALU_S" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 226
+Info (12128): Elaborating entity "ControlUnit" for hierarchy "SimpleProcessor:P|ControlUnit:Control" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd Line: 246
 Info (12128): Elaborating entity "MemoryIOInterface" for hierarchy "MemoryIOInterface:MemIO" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd Line: 110
 Info (12128): Elaborating entity "MainMemory" for hierarchy "MemoryIOInterface:MemIO|MainMemory:Memory" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd Line: 83
 Info (12128): Elaborating entity "altsyncram" for hierarchy "MemoryIOInterface:MemIO|MainMemory:Memory|altsyncram:altsyncram_component" File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd Line: 63
@@ -1093,35 +1101,19 @@ Info (12133): Instantiated megafunction "MemoryIOInterface:MemIO|MainMemory:Memo
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_71e1.tdf
     Info (12023): Found entity 1: altsyncram_71e1 File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_71e1" for hierarchy "MemoryIOInterface:MemIO|MainMemory:Memory|altsyncram:altsyncram_component|altsyncram_71e1:auto_generated" File: c:/intelfpga/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
-Warning (113028): 4087 out of 4096 addresses are uninitialized. The Quartus Prime software will initialize them to "0". There are 1 warnings found, and 1 warnings are reported. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryInitialization.mif Line: 1
-    Warning (113027): Addresses ranging from 9 to 4095 are not initialized File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryInitialization.mif Line: 1
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Error (16031): Current Internal Configuration mode does not support memory initialization or ROM. Select Internal Configuration mode with ERAM. File: C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/db/altsyncram_71e1.tdf Line: 32
-Info (21057): Implemented 971 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 980 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 245 output pins
-    Info (21061): Implemented 697 logic cells
+    Info (21061): Implemented 706 logic cells
     Info (21064): Implemented 16 RAM segments
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 15 errors, 5 warnings
-    Error: Peak virtual memory: 699 megabytes
-    Error: Processing ended: Thu Nov 18 18:27:33 2021
-    Error: Elapsed time: 00:00:21
-    Error: Total CPU time (on all processors): 00:00:38
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 703 megabytes
+    Info: Processing ended: Thu Nov 18 19:55:35 2021
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:38
 
 

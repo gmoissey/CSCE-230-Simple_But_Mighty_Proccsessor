@@ -1,0 +1,1916 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do SimpleComputer_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:25 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleProcessor
+# -- Compiling architecture implementation of SimpleProcessor
+# End time: 19:10:25 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:25 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleComputer
+# -- Compiling architecture implementation of SimpleComputer
+# End time: 19:10:25 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:25 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegisterFile8by16Bit
+# -- Compiling architecture implementation of RegisterFile8by16Bit
+# End time: 19:10:25 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:25 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg16Bit
+# -- Compiling architecture implementation of Reg16Bit
+# End time: 19:10:25 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:26 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg1Bit
+# -- Compiling architecture implementation of Reg1Bit
+# End time: 19:10:26 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:26 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux8Input16Bit
+# -- Compiling architecture implementation of mux8Input16Bit
+# End time: 19:10:26 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:26 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input16Bit
+# -- Compiling architecture implementation of mux4Input16Bit
+# End time: 19:10:26 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:26 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input3Bit
+# -- Compiling architecture implementation of mux4Input3Bit
+# End time: 19:10:26 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:26 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2Input16Bit
+# -- Compiling architecture implementation of mux2Input16Bit
+# End time: 19:10:26 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:26 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MemoryIOInterface
+# -- Compiling architecture implementation of MemoryIOInterface
+# End time: 19:10:26 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:26 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MainMemory
+# -- Compiling architecture implementation of MainMemory
+# End time: 19:10:26 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:26 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Immediate
+# -- Compiling architecture implementation of Immediate
+# End time: 19:10:26 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decoder3Bit
+# -- Compiling architecture implementation of Decoder3Bit
+# End time: 19:10:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ControlUnit
+# -- Compiling architecture implementation of ControlUnit
+# End time: 19:10:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture implementation of ALU
+# End time: 19:10:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder16Bit
+# -- Compiling architecture implementation of Adder16Bit
+# End time: 19:10:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:10:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder1Bit
+# -- Compiling architecture implementation of Adder1Bit
+# End time: 19:10:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/task.do"
+# vsim SimpleComputer
+# vsim SimpleComputer 
+# Start time: 19:10:28 on Nov 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simplecomputer(implementation)
+# Loading work.simpleprocessor(implementation)
+# Loading work.reg16bit(implementation)
+# Loading work.reg1bit(implementation)
+# Loading work.immediate(implementation)
+# Loading work.mux2input16bit(implementation)
+# Loading work.adder16bit(implementation)
+# Loading work.adder1bit(implementation)
+# Loading work.mux4input16bit(implementation)
+# Loading work.mux4input3bit(implementation)
+# Loading work.registerfile8by16bit(implementation)
+# Loading work.decoder3bit(implementation)
+# Loading work.mux8input16bit(implementation)
+# Loading work.alu(implementation)
+# Loading work.controlunit(implementation)
+# Loading work.memoryiointerface(implementation)
+# Loading work.mainmemory(implementation)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# ** Warning: Design size of 15429 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# display hexadecimal values
+# radix -hexadecimal
+# hexadecimal
+# 
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave clock
+# 
+# add wave debug_PC
+# add wave P/reset
+# add wave debug_IR
+# add wave debug_state
+# add wave debug_r1
+# add wave debug_r2
+# add wave debug_r3
+# add wave debug_r4
+# add wave debug_r5
+# add wave debug_r6
+# add wave debug_r7
+# add wave debug_RA
+# add wave debug_RB
+# add wave debug_Extension
+# add wave debug_RZ
+# add wave debug_RY
+# 
+# add other signals
+# add wave SW
+# add wave KEY
+# add wave HEX_DP
+# add wave LEDR
+# add signals inside simpleProcessor
+# add wave P/MEM_read
+# add wave P/MEM_write
+# add wave P/MEM_address
+# add wave P/Data_to_Mem
+# 
+# force clock 1 0, 0 1000 -repeat 2000
+# push KEY0 between 0 and 100 to reset the computer
+# force KEY(1) 1 0, 1 50000
+# force KEY(0) 0 0, 1 100
+#clear all switches at time 0 and set every other switch after 100000
+# force SW 0000000000 0
+# force SW(8) 0 0, 1 100000
+# force SW(6) 0 0, 1 100000
+# force SW(4) 0 0, 1 100000
+# force SW(2) 0 0, 1 100000
+# force SW(0) 0 0, 1 100000
+# 
+# run 250000
+# ** Error: Error: BYPASS value for CLOCK_ENABLE_INPUT_A is not supported in Max 10 device family
+#    Time: 0 ps  Iteration: 0  Instance: /simplecomputer/MemIO/Memory/altsyncram_component
+# ** Error: Error: BYPASS value for CLOCK_ENABLE_OUTPUT_A is not supported in Max 10 device family
+#    Time: 0 ps  Iteration: 0  Instance: /simplecomputer/MemIO/Memory/altsyncram_component
+# 
+# 
+do SimpleComputer_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:43 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleProcessor
+# -- Compiling architecture implementation of SimpleProcessor
+# End time: 19:25:43 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:43 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleComputer
+# -- Compiling architecture implementation of SimpleComputer
+# End time: 19:25:43 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:43 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegisterFile8by16Bit
+# -- Compiling architecture implementation of RegisterFile8by16Bit
+# End time: 19:25:43 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:43 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg16Bit
+# -- Compiling architecture implementation of Reg16Bit
+# End time: 19:25:43 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:43 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg1Bit
+# -- Compiling architecture implementation of Reg1Bit
+# End time: 19:25:44 on Nov 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:44 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux8Input16Bit
+# -- Compiling architecture implementation of mux8Input16Bit
+# End time: 19:25:44 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:44 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input16Bit
+# -- Compiling architecture implementation of mux4Input16Bit
+# End time: 19:25:44 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:44 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input3Bit
+# -- Compiling architecture implementation of mux4Input3Bit
+# End time: 19:25:44 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:44 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2Input16Bit
+# -- Compiling architecture implementation of mux2Input16Bit
+# End time: 19:25:44 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:44 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MemoryIOInterface
+# -- Compiling architecture implementation of MemoryIOInterface
+# End time: 19:25:44 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:44 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MainMemory
+# -- Compiling architecture implementation of MainMemory
+# End time: 19:25:44 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:44 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Immediate
+# -- Compiling architecture implementation of Immediate
+# End time: 19:25:44 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:44 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decoder3Bit
+# -- Compiling architecture implementation of Decoder3Bit
+# End time: 19:25:45 on Nov 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:45 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ControlUnit
+# -- Compiling architecture implementation of ControlUnit
+# End time: 19:25:45 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:45 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture implementation of ALU
+# End time: 19:25:45 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:45 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder16Bit
+# -- Compiling architecture implementation of Adder16Bit
+# End time: 19:25:45 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:25:45 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder1Bit
+# -- Compiling architecture implementation of Adder1Bit
+# End time: 19:25:45 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/task.do"
+# vsim SimpleComputer
+# End time: 19:25:46 on Nov 18,2021, Elapsed time: 0:15:18
+# Errors: 2, Warnings: 1
+# vsim SimpleComputer 
+# Start time: 19:25:46 on Nov 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simplecomputer(implementation)
+# Loading work.simpleprocessor(implementation)
+# Loading work.reg16bit(implementation)
+# Loading work.reg1bit(implementation)
+# Loading work.immediate(implementation)
+# Loading work.mux2input16bit(implementation)
+# Loading work.adder16bit(implementation)
+# Loading work.adder1bit(implementation)
+# Loading work.mux4input16bit(implementation)
+# Loading work.mux4input3bit(implementation)
+# Loading work.registerfile8by16bit(implementation)
+# Loading work.decoder3bit(implementation)
+# Loading work.mux8input16bit(implementation)
+# Loading work.alu(implementation)
+# Loading work.controlunit(implementation)
+# Loading work.memoryiointerface(implementation)
+# Loading work.mainmemory(implementation)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# ** Warning: Design size of 15429 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# display hexadecimal values
+# radix -hexadecimal
+# hexadecimal
+# 
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave clock
+# 
+# add wave debug_PC
+# add wave P/reset
+# add wave debug_IR
+# add wave debug_state
+# add wave debug_r1
+# add wave debug_r2
+# add wave debug_r3
+# add wave debug_r4
+# add wave debug_r5
+# add wave debug_r6
+# add wave debug_r7
+# add wave debug_RA
+# add wave debug_RB
+# add wave debug_Extension
+# add wave debug_RZ
+# add wave debug_RY
+# add wave B_select
+# ** Error: (vish-4014) No objects found matching 'B_select'.
+# Error in macro C:\Temp\CSCE-230-Simple_But_Mighty_Proccsessor\task.do line 26
+# (vish-4014) No objects found matching 'B_select'.
+#     while executing
+# "add wave B_select"
+do SimpleComputer_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:05 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleProcessor
+# -- Compiling architecture implementation of SimpleProcessor
+# End time: 19:28:05 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:05 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleComputer
+# -- Compiling architecture implementation of SimpleComputer
+# End time: 19:28:06 on Nov 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:06 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegisterFile8by16Bit
+# -- Compiling architecture implementation of RegisterFile8by16Bit
+# End time: 19:28:06 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:06 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg16Bit
+# -- Compiling architecture implementation of Reg16Bit
+# End time: 19:28:06 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:06 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg1Bit
+# -- Compiling architecture implementation of Reg1Bit
+# End time: 19:28:06 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:06 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux8Input16Bit
+# -- Compiling architecture implementation of mux8Input16Bit
+# End time: 19:28:06 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:06 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input16Bit
+# -- Compiling architecture implementation of mux4Input16Bit
+# End time: 19:28:06 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:06 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input3Bit
+# -- Compiling architecture implementation of mux4Input3Bit
+# End time: 19:28:06 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:06 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2Input16Bit
+# -- Compiling architecture implementation of mux2Input16Bit
+# End time: 19:28:06 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:06 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MemoryIOInterface
+# -- Compiling architecture implementation of MemoryIOInterface
+# End time: 19:28:07 on Nov 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:07 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MainMemory
+# -- Compiling architecture implementation of MainMemory
+# End time: 19:28:07 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:07 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Immediate
+# -- Compiling architecture implementation of Immediate
+# End time: 19:28:07 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:07 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decoder3Bit
+# -- Compiling architecture implementation of Decoder3Bit
+# End time: 19:28:07 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:07 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ControlUnit
+# -- Compiling architecture implementation of ControlUnit
+# End time: 19:28:07 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:07 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture implementation of ALU
+# End time: 19:28:07 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:07 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder16Bit
+# -- Compiling architecture implementation of Adder16Bit
+# End time: 19:28:07 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:28:07 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder1Bit
+# -- Compiling architecture implementation of Adder1Bit
+# End time: 19:28:07 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/task.do"
+# vsim SimpleComputer
+# End time: 19:28:09 on Nov 18,2021, Elapsed time: 0:02:23
+# Errors: 3, Warnings: 1
+# vsim SimpleComputer 
+# Start time: 19:28:09 on Nov 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simplecomputer(implementation)
+# Loading work.simpleprocessor(implementation)
+# Loading work.reg16bit(implementation)
+# Loading work.reg1bit(implementation)
+# Loading work.immediate(implementation)
+# Loading work.mux2input16bit(implementation)
+# Loading work.adder16bit(implementation)
+# Loading work.adder1bit(implementation)
+# Loading work.mux4input16bit(implementation)
+# Loading work.mux4input3bit(implementation)
+# Loading work.registerfile8by16bit(implementation)
+# Loading work.decoder3bit(implementation)
+# Loading work.mux8input16bit(implementation)
+# Loading work.alu(implementation)
+# Loading work.controlunit(implementation)
+# Loading work.memoryiointerface(implementation)
+# Loading work.mainmemory(implementation)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# ** Warning: Design size of 15433 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# display hexadecimal values
+# radix -hexadecimal
+# hexadecimal
+# 
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave clock
+# 
+# add wave debug_PC
+# add wave P/reset
+# add wave debug_IR
+# add wave debug_state
+# add wave debug_r1
+# add wave debug_r2
+# add wave debug_r3
+# add wave debug_r4
+# add wave debug_r5
+# add wave debug_r6
+# add wave debug_r7
+# add wave debug_RA
+# add wave debug_RB
+# add wave debug_Extension
+# add wave debug_RZ
+# add wave debug_RY
+# add wave debug_Bs
+# ** Error: (vish-4014) No objects found matching 'debug_Bs'.
+# Error in macro C:\Temp\CSCE-230-Simple_But_Mighty_Proccsessor\task.do line 26
+# (vish-4014) No objects found matching 'debug_Bs'.
+#     while executing
+# "add wave debug_Bs"
+do SimpleComputer_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:28 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleProcessor
+# -- Compiling architecture implementation of SimpleProcessor
+# End time: 19:29:28 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:28 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleComputer
+# -- Compiling architecture implementation of SimpleComputer
+# End time: 19:29:29 on Nov 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:29 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegisterFile8by16Bit
+# -- Compiling architecture implementation of RegisterFile8by16Bit
+# End time: 19:29:29 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:29 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg16Bit
+# -- Compiling architecture implementation of Reg16Bit
+# End time: 19:29:29 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:29 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg1Bit
+# -- Compiling architecture implementation of Reg1Bit
+# End time: 19:29:29 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:29 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux8Input16Bit
+# -- Compiling architecture implementation of mux8Input16Bit
+# End time: 19:29:29 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:29 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input16Bit
+# -- Compiling architecture implementation of mux4Input16Bit
+# End time: 19:29:29 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:29 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input3Bit
+# -- Compiling architecture implementation of mux4Input3Bit
+# End time: 19:29:29 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:29 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2Input16Bit
+# -- Compiling architecture implementation of mux2Input16Bit
+# End time: 19:29:29 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:29 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MemoryIOInterface
+# -- Compiling architecture implementation of MemoryIOInterface
+# End time: 19:29:30 on Nov 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:30 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MainMemory
+# -- Compiling architecture implementation of MainMemory
+# End time: 19:29:30 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:30 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Immediate
+# -- Compiling architecture implementation of Immediate
+# End time: 19:29:30 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:30 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decoder3Bit
+# -- Compiling architecture implementation of Decoder3Bit
+# End time: 19:29:30 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:30 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ControlUnit
+# -- Compiling architecture implementation of ControlUnit
+# End time: 19:29:30 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:30 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture implementation of ALU
+# End time: 19:29:30 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:30 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder16Bit
+# -- Compiling architecture implementation of Adder16Bit
+# End time: 19:29:30 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:29:30 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder1Bit
+# -- Compiling architecture implementation of Adder1Bit
+# End time: 19:29:31 on Nov 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/task.do"
+# vsim SimpleComputer
+# End time: 19:29:32 on Nov 18,2021, Elapsed time: 0:01:23
+# Errors: 3, Warnings: 1
+# vsim SimpleComputer 
+# Start time: 19:29:32 on Nov 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simplecomputer(implementation)
+# Loading work.simpleprocessor(implementation)
+# Loading work.reg16bit(implementation)
+# Loading work.reg1bit(implementation)
+# Loading work.immediate(implementation)
+# Loading work.mux2input16bit(implementation)
+# Loading work.adder16bit(implementation)
+# Loading work.adder1bit(implementation)
+# Loading work.mux4input16bit(implementation)
+# Loading work.mux4input3bit(implementation)
+# Loading work.registerfile8by16bit(implementation)
+# Loading work.decoder3bit(implementation)
+# Loading work.mux8input16bit(implementation)
+# Loading work.alu(implementation)
+# Loading work.controlunit(implementation)
+# Loading work.memoryiointerface(implementation)
+# Loading work.mainmemory(implementation)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# ** Warning: Design size of 15433 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# display hexadecimal values
+# radix -hexadecimal
+# hexadecimal
+# 
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave clock
+# 
+# add wave debug_PC
+# add wave P/reset
+# add wave debug_IR
+# add wave debug_state
+# add wave debug_r1
+# add wave debug_r2
+# add wave debug_r3
+# add wave debug_r4
+# add wave debug_r5
+# add wave debug_r6
+# add wave debug_r7
+# add wave debug_RA
+# add wave debug_RB
+# add wave debug_Extension
+# add wave debug_RZ
+# add wave debug_RY
+# add wave debug_Bs
+# ** Error: (vish-4014) No objects found matching 'debug_Bs'.
+# Error in macro C:\Temp\CSCE-230-Simple_But_Mighty_Proccsessor\task.do line 26
+# (vish-4014) No objects found matching 'debug_Bs'.
+#     while executing
+# "add wave debug_Bs"
+do SimpleComputer_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:26 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleProcessor
+# -- Compiling architecture implementation of SimpleProcessor
+# End time: 19:35:26 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:26 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleComputer
+# -- Compiling architecture implementation of SimpleComputer
+# End time: 19:35:26 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:26 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegisterFile8by16Bit
+# -- Compiling architecture implementation of RegisterFile8by16Bit
+# End time: 19:35:27 on Nov 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg16Bit
+# -- Compiling architecture implementation of Reg16Bit
+# End time: 19:35:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg1Bit
+# -- Compiling architecture implementation of Reg1Bit
+# End time: 19:35:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux8Input16Bit
+# -- Compiling architecture implementation of mux8Input16Bit
+# End time: 19:35:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input16Bit
+# -- Compiling architecture implementation of mux4Input16Bit
+# End time: 19:35:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input3Bit
+# -- Compiling architecture implementation of mux4Input3Bit
+# End time: 19:35:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2Input16Bit
+# -- Compiling architecture implementation of mux2Input16Bit
+# End time: 19:35:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MemoryIOInterface
+# -- Compiling architecture implementation of MemoryIOInterface
+# End time: 19:35:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:27 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MainMemory
+# -- Compiling architecture implementation of MainMemory
+# End time: 19:35:27 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:28 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Immediate
+# -- Compiling architecture implementation of Immediate
+# End time: 19:35:28 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:28 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decoder3Bit
+# -- Compiling architecture implementation of Decoder3Bit
+# End time: 19:35:28 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:28 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ControlUnit
+# -- Compiling architecture implementation of ControlUnit
+# End time: 19:35:28 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:28 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture implementation of ALU
+# End time: 19:35:28 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:28 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder16Bit
+# -- Compiling architecture implementation of Adder16Bit
+# End time: 19:35:28 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:28 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder1Bit
+# -- Compiling architecture implementation of Adder1Bit
+# End time: 19:35:28 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/task.do"
+# vsim SimpleComputer
+# End time: 19:35:29 on Nov 18,2021, Elapsed time: 0:05:57
+# Errors: 3, Warnings: 1
+# vsim SimpleComputer 
+# Start time: 19:35:29 on Nov 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simplecomputer(implementation)
+# Loading work.simpleprocessor(implementation)
+# Loading work.reg16bit(implementation)
+# Loading work.reg1bit(implementation)
+# Loading work.immediate(implementation)
+# Loading work.mux2input16bit(implementation)
+# Loading work.adder16bit(implementation)
+# Loading work.adder1bit(implementation)
+# Loading work.mux4input16bit(implementation)
+# Loading work.mux4input3bit(implementation)
+# Loading work.registerfile8by16bit(implementation)
+# Loading work.decoder3bit(implementation)
+# Loading work.mux8input16bit(implementation)
+# Loading work.alu(implementation)
+# Loading work.controlunit(implementation)
+# Loading work.memoryiointerface(implementation)
+# Loading work.mainmemory(implementation)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# ** Warning: Design size of 15433 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# display hexadecimal values
+# radix -hexadecimal
+# hexadecimal
+# 
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave clock
+# 
+# add wave debug_PC
+# add wave P/reset
+# add wave debug_IR
+# add wave debug_state
+# add wave debug_r1
+# add wave debug_r2
+# add wave debug_r3
+# add wave debug_r4
+# add wave debug_r5
+# add wave debug_r6
+# add wave debug_r7
+# add wave debug_RA
+# add wave debug_RB
+# add wave debug_Extension
+# add wave debug_RZ
+# add wave debug_RY
+# add wave debug_Bs
+# ** Error: (vish-4014) No objects found matching 'debug_Bs'.
+# Error in macro C:\Temp\CSCE-230-Simple_But_Mighty_Proccsessor\task.do line 26
+# (vish-4014) No objects found matching 'debug_Bs'.
+#     while executing
+# "add wave debug_Bs"
+do SimpleComputer_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:46 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleProcessor
+# -- Compiling architecture implementation of SimpleProcessor
+# End time: 19:35:46 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:46 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleComputer
+# -- Compiling architecture implementation of SimpleComputer
+# End time: 19:35:46 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:47 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegisterFile8by16Bit
+# -- Compiling architecture implementation of RegisterFile8by16Bit
+# End time: 19:35:47 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:47 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg16Bit
+# -- Compiling architecture implementation of Reg16Bit
+# End time: 19:35:47 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:47 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg1Bit
+# -- Compiling architecture implementation of Reg1Bit
+# End time: 19:35:47 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:47 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux8Input16Bit
+# -- Compiling architecture implementation of mux8Input16Bit
+# End time: 19:35:47 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:47 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input16Bit
+# -- Compiling architecture implementation of mux4Input16Bit
+# End time: 19:35:47 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:47 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input3Bit
+# -- Compiling architecture implementation of mux4Input3Bit
+# End time: 19:35:47 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:47 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2Input16Bit
+# -- Compiling architecture implementation of mux2Input16Bit
+# End time: 19:35:47 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:47 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MemoryIOInterface
+# -- Compiling architecture implementation of MemoryIOInterface
+# End time: 19:35:47 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:47 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MainMemory
+# -- Compiling architecture implementation of MainMemory
+# End time: 19:35:48 on Nov 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:48 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Immediate
+# -- Compiling architecture implementation of Immediate
+# End time: 19:35:48 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:48 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decoder3Bit
+# -- Compiling architecture implementation of Decoder3Bit
+# End time: 19:35:48 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:48 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ControlUnit
+# -- Compiling architecture implementation of ControlUnit
+# End time: 19:35:48 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:48 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture implementation of ALU
+# End time: 19:35:48 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:48 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder16Bit
+# -- Compiling architecture implementation of Adder16Bit
+# End time: 19:35:48 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:35:48 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder1Bit
+# -- Compiling architecture implementation of Adder1Bit
+# End time: 19:35:48 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/task.do"
+# vsim SimpleComputer
+# End time: 19:35:50 on Nov 18,2021, Elapsed time: 0:00:21
+# Errors: 3, Warnings: 1
+# vsim SimpleComputer 
+# Start time: 19:35:50 on Nov 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simplecomputer(implementation)
+# Loading work.simpleprocessor(implementation)
+# Loading work.reg16bit(implementation)
+# Loading work.reg1bit(implementation)
+# Loading work.immediate(implementation)
+# Loading work.mux2input16bit(implementation)
+# Loading work.adder16bit(implementation)
+# Loading work.adder1bit(implementation)
+# Loading work.mux4input16bit(implementation)
+# Loading work.mux4input3bit(implementation)
+# Loading work.registerfile8by16bit(implementation)
+# Loading work.decoder3bit(implementation)
+# Loading work.mux8input16bit(implementation)
+# Loading work.alu(implementation)
+# Loading work.controlunit(implementation)
+# Loading work.memoryiointerface(implementation)
+# Loading work.mainmemory(implementation)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# ** Warning: Design size of 15433 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# display hexadecimal values
+# radix -hexadecimal
+# hexadecimal
+# 
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave clock
+# 
+# add wave debug_PC
+# add wave P/reset
+# add wave debug_IR
+# add wave debug_state
+# add wave debug_r1
+# add wave debug_r2
+# add wave debug_r3
+# add wave debug_r4
+# add wave debug_r5
+# add wave debug_r6
+# add wave debug_r7
+# add wave debug_RA
+# add wave debug_RB
+# add wave debug_Extension
+# add wave debug_RZ
+# add wave debug_RY
+# 
+# add other signals
+# add wave SW
+# add wave KEY
+# add wave HEX_DP
+# add wave LEDR
+# add signals inside simpleProcessor
+# add wave P/MEM_read
+# add wave P/MEM_write
+# add wave P/MEM_address
+# add wave P/Data_to_Mem
+# 
+# force clock 1 0, 0 1000 -repeat 2000
+# push KEY0 between 0 and 100 to reset the computer
+# force KEY(1) 1 0, 1 50000
+# force KEY(0) 0 0, 1 100
+#clear all switches at time 0 and set every other switch after 100000
+# force SW 0000000000 0
+# force SW(8) 0 0, 1 100000
+# force SW(6) 0 0, 1 100000
+# force SW(4) 0 0, 1 100000
+# force SW(2) 0 0, 1 100000
+# force SW(0) 0 0, 1 100000
+# 
+# run 250000
+# ** Error: Error: BYPASS value for CLOCK_ENABLE_INPUT_A is not supported in Max 10 device family
+#    Time: 0 ps  Iteration: 0  Instance: /simplecomputer/MemIO/Memory/altsyncram_component
+# ** Error: Error: BYPASS value for CLOCK_ENABLE_OUTPUT_A is not supported in Max 10 device family
+#    Time: 0 ps  Iteration: 0  Instance: /simplecomputer/MemIO/Memory/altsyncram_component
+# 
+# 
+do SimpleComputer_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:20 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleProcessor
+# -- Compiling architecture implementation of SimpleProcessor
+# End time: 19:57:20 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:20 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleComputer
+# -- Compiling architecture implementation of SimpleComputer
+# End time: 19:57:20 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:20 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RegisterFile8by16Bit
+# -- Compiling architecture implementation of RegisterFile8by16Bit
+# End time: 19:57:20 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:20 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg16Bit
+# -- Compiling architecture implementation of Reg16Bit
+# End time: 19:57:20 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:20 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Reg1Bit
+# -- Compiling architecture implementation of Reg1Bit
+# End time: 19:57:20 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:20 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux8Input16Bit
+# -- Compiling architecture implementation of mux8Input16Bit
+# End time: 19:57:20 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:20 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input16Bit
+# -- Compiling architecture implementation of mux4Input16Bit
+# End time: 19:57:20 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:20 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux4Input3Bit
+# -- Compiling architecture implementation of mux4Input3Bit
+# End time: 19:57:21 on Nov 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:21 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2Input16Bit
+# -- Compiling architecture implementation of mux2Input16Bit
+# End time: 19:57:21 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:21 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MemoryIOInterface
+# -- Compiling architecture implementation of MemoryIOInterface
+# End time: 19:57:21 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:21 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MainMemory
+# -- Compiling architecture implementation of MainMemory
+# End time: 19:57:21 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:21 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Immediate
+# -- Compiling architecture implementation of Immediate
+# End time: 19:57:21 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:21 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Decoder3Bit
+# -- Compiling architecture implementation of Decoder3Bit
+# End time: 19:57:21 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:21 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ControlUnit
+# -- Compiling architecture implementation of ControlUnit
+# End time: 19:57:21 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:21 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture implementation of ALU
+# End time: 19:57:21 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:22 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder16Bit
+# -- Compiling architecture implementation of Adder16Bit
+# End time: 19:57:22 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:57:22 on Nov 18,2021
+# vcom -reportprogress 300 -2008 -work work C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder1Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder1Bit
+# -- Compiling architecture implementation of Adder1Bit
+# End time: 19:57:22 on Nov 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# do "C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/task.do"
+# vsim SimpleComputer
+# End time: 19:57:23 on Nov 18,2021, Elapsed time: 0:21:33
+# Errors: 2, Warnings: 1
+# vsim SimpleComputer 
+# Start time: 19:57:23 on Nov 18,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.simplecomputer(implementation)
+# Loading work.simpleprocessor(implementation)
+# Loading work.reg16bit(implementation)
+# Loading work.reg1bit(implementation)
+# Loading work.immediate(implementation)
+# Loading work.mux2input16bit(implementation)
+# Loading work.adder16bit(implementation)
+# Loading work.adder1bit(implementation)
+# Loading work.mux4input16bit(implementation)
+# Loading work.mux4input3bit(implementation)
+# Loading work.registerfile8by16bit(implementation)
+# Loading work.decoder3bit(implementation)
+# Loading work.mux8input16bit(implementation)
+# Loading work.alu(implementation)
+# Loading work.controlunit(implementation)
+# Loading work.memoryiointerface(implementation)
+# Loading work.mainmemory(implementation)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# ** Warning: Design size of 15433 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# display hexadecimal values
+# radix -hexadecimal
+# hexadecimal
+# 
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# 
+# add wave clock
+# 
+# add wave debug_PC
+# add wave P/reset
+# add wave debug_IR
+# add wave debug_state
+# add wave debug_r1
+# add wave debug_r2
+# add wave debug_r3
+# add wave debug_r4
+# add wave debug_r5
+# add wave debug_r6
+# add wave debug_r7
+# add wave debug_RA
+# add wave debug_RB
+# add wave debug_Extension
+# add wave debug_RZ
+# add wave debug_RY
+# 
+# add other signals
+# add wave SW
+# add wave KEY
+# add wave HEX_DP
+# add wave LEDR
+# add signals inside simpleProcessor
+# add wave P/MEM_read
+# add wave P/MEM_write
+# add wave P/MEM_address
+# add wave P/Data_to_Mem
+# 
+# force clock 1 0, 0 1000 -repeat 2000
+# push KEY0 between 0 and 100 to reset the computer
+# force KEY(1) 1 0, 1 50000
+# force KEY(0) 0 0, 1 100
+#clear all switches at time 0 and set every other switch after 100000
+# force SW 0000000000 0
+# force SW(8) 0 0, 1 100000
+# force SW(6) 0 0, 1 100000
+# force SW(4) 0 0, 1 100000
+# force SW(2) 0 0, 1 100000
+# force SW(0) 0 0, 1 100000
+# 
+# run 250000
+# ** Error: Error: BYPASS value for CLOCK_ENABLE_INPUT_A is not supported in Max 10 device family
+#    Time: 0 ps  Iteration: 0  Instance: /simplecomputer/MemIO/Memory/altsyncram_component
+# ** Error: Error: BYPASS value for CLOCK_ENABLE_OUTPUT_A is not supported in Max 10 device family
+#    Time: 0 ps  Iteration: 0  Instance: /simplecomputer/MemIO/Memory/altsyncram_component
+# 
+# 

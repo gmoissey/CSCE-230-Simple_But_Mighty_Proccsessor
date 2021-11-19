@@ -341,7 +341,7 @@ begin
 		end if;
 	end if;
 	--I type orhi
-	if (OP_code="100") then
+	if (OP_code="101") then
 		if (current_state = "010") then
 		elsif (current_state = "011") then
 			extend <= "010";
