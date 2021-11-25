@@ -1,5 +1,5 @@
 Analysis & Synthesis report for SimpleComputer
-Thu Nov 25 08:43:36 2021
+Thu Nov 25 10:01:42 2021
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -67,13 +67,13 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 25 08:43:36 2021           ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 25 10:01:42 2021           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                      ; SimpleComputer                                  ;
 ; Top-level Entity Name              ; SimpleComputer                                  ;
 ; Family                             ; MAX 10                                          ;
-; Total logic elements               ; 693                                             ;
-;     Total combinational functions  ; 520                                             ;
+; Total logic elements               ; 695                                             ;
+;     Total combinational functions  ; 522                                             ;
 ;     Dedicated logic registers      ; 276                                             ;
 ; Total registers                    ; 276                                             ;
 ; Total pins                         ; 258                                             ;
@@ -233,16 +233,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 693         ;
+; Estimated Total logic elements              ; 695         ;
 ;                                             ;             ;
-; Total combinational functions               ; 520         ;
+; Total combinational functions               ; 522         ;
 ; Logic element usage by number of LUT inputs ;             ;
 ;     -- 4 input functions                    ; 406         ;
-;     -- 3 input functions                    ; 90          ;
-;     -- <=2 input functions                  ; 24          ;
+;     -- 3 input functions                    ; 91          ;
+;     -- <=2 input functions                  ; 25          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 520         ;
+;     -- normal mode                          ; 522         ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
 ; Total registers                             ; 276         ;
@@ -256,7 +256,7 @@ refer to the applicable agreement for further details.
 ;                                             ;             ;
 ; Maximum fan-out node                        ; clock~input ;
 ; Maximum fan-out                             ; 292         ;
-; Total fan-out                               ; 3748        ;
+; Total fan-out                               ; 3753        ;
 ; Average fan-out                             ; 2.82        ;
 +---------------------------------------------+-------------+
 
@@ -266,7 +266,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------------------------------------------------+----------------------+--------------+
 ; Compilation Hierarchy Node                   ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                                      ; Entity Name          ; Library Name ;
 +----------------------------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+--------------------------------------------------------------------------------------------------------------------------+----------------------+--------------+
-; |SimpleComputer                              ; 520 (0)             ; 276 (0)                   ; 65536       ; 0          ; 0            ; 0       ; 0         ; 258  ; 0            ; 0          ; |SimpleComputer                                                                                                          ; SimpleComputer       ; work         ;
+; |SimpleComputer                              ; 522 (0)             ; 276 (0)                   ; 65536       ; 0          ; 0            ; 0       ; 0         ; 258  ; 0            ; 0          ; |SimpleComputer                                                                                                          ; SimpleComputer       ; work         ;
 ;    |MemoryIOInterface:MemIO|                 ; 30 (30)             ; 29 (0)                    ; 65536       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO                                                                                  ; MemoryIOInterface    ; work         ;
 ;       |MainMemory:Memory|                    ; 0 (0)               ; 0 (0)                     ; 65536       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO|MainMemory:Memory                                                                ; MainMemory           ; work         ;
 ;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 65536       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO|MainMemory:Memory|altsyncram:altsyncram_component                                ; altsyncram           ; work         ;
@@ -304,9 +304,9 @@ refer to the applicable agreement for further details.
 ;          |Reg1Bit:bit7|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO|Reg16Bit:SliderSwitch|Reg1Bit:bit7                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit8|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO|Reg16Bit:SliderSwitch|Reg1Bit:bit8                                               ; Reg1Bit              ; work         ;
 ;          |Reg1Bit:bit9|                      ; 0 (0)               ; 1 (1)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|MemoryIOInterface:MemIO|Reg16Bit:SliderSwitch|Reg1Bit:bit9                                               ; Reg1Bit              ; work         ;
-;    |SimpleProcessor:P|                       ; 490 (0)             ; 247 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P                                                                                        ; SimpleProcessor      ; work         ;
-;       |ALU:ALU_S|                            ; 106 (18)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S                                                                              ; ALU                  ; work         ;
-;          |Adder16Bit:A1|                     ; 24 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1                                                                ; Adder16Bit           ; work         ;
+;    |SimpleProcessor:P|                       ; 492 (0)             ; 247 (0)                   ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P                                                                                        ; SimpleProcessor      ; work         ;
+;       |ALU:ALU_S|                            ; 108 (19)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S                                                                              ; ALU                  ; work         ;
+;          |Adder16Bit:A1|                     ; 25 (0)              ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1                                                                ; Adder16Bit           ; work         ;
 ;             |Adder1Bit:S0|                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S0                                                   ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S10|                  ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S10                                                  ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S11|                  ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S11                                                  ; Adder1Bit            ; work         ;
@@ -317,7 +317,7 @@ refer to the applicable agreement for further details.
 ;             |Adder1Bit:S1|                   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S1                                                   ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S2|                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S2                                                   ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S3|                   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S3                                                   ; Adder1Bit            ; work         ;
-;             |Adder1Bit:S4|                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S4                                                   ; Adder1Bit            ; work         ;
+;             |Adder1Bit:S4|                   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S4                                                   ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S5|                   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S5                                                   ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S6|                   ; 1 (1)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S6                                                   ; Adder1Bit            ; work         ;
 ;             |Adder1Bit:S7|                   ; 2 (2)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |SimpleComputer|SimpleProcessor:P|ALU:ALU_S|Adder16Bit:A1|Adder1Bit:S7                                                   ; Adder1Bit            ; work         ;
@@ -969,16 +969,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA CLR           ; 150                         ;
 ;     ENA CLR SLD       ; 16                          ;
 ;     plain             ; 11                          ;
-; cycloneiii_lcell_comb ; 528                         ;
-;     normal            ; 528                         ;
+; cycloneiii_lcell_comb ; 530                         ;
+;     normal            ; 530                         ;
 ;         1 data inputs ; 8                           ;
-;         2 data inputs ; 24                          ;
-;         3 data inputs ; 90                          ;
+;         2 data inputs ; 25                          ;
+;         3 data inputs ; 91                          ;
 ;         4 data inputs ; 406                         ;
 ; cycloneiii_ram_block  ; 16                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 25.00                       ;
-; Average LUT depth     ; 9.07                        ;
+; Average LUT depth     ; 9.11                        ;
 +-----------------------+-----------------------------+
 
 
@@ -987,7 +987,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:03     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -997,7 +997,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Thu Nov 25 08:43:14 2021
+    Info: Processing started: Thu Nov 25 10:01:23 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off SimpleComputer -c SimpleComputer
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -1094,15 +1094,15 @@ Info (12128): Elaborating entity "altsyncram_71e1" for hierarchy "MemoryIOInterf
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 984 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 986 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 245 output pins
-    Info (21061): Implemented 710 logic cells
+    Info (21061): Implemented 712 logic cells
     Info (21064): Implemented 16 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 701 megabytes
-    Info: Processing ended: Thu Nov 25 08:43:36 2021
-    Info: Elapsed time: 00:00:22
-    Info: Total CPU time (on all processors): 00:00:41
+    Info: Peak virtual memory: 702 megabytes
+    Info: Processing ended: Thu Nov 25 10:01:42 2021
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:37
 
 

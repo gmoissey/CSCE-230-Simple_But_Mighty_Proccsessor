@@ -506,7 +506,7 @@ begin
 	if ((OP_code="110" ) and (OPX = "0111")) then
 		if (current_state = "010") then
 		elsif (current_state = "011") then
-			if (not N = V) then
+			if (N = V) then
 				extend <= "011";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
