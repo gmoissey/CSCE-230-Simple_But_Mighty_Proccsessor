@@ -264,12 +264,9 @@ begin
 				B_select <= '0';
 				ALU_op <= "11";
 				A_inv <= '0'; B_inv <= '1'; C_in <= '1';
-			elsif (current_state = "100") then
-				Y_select <= "00";
 				Status_enable <= '1';
+			elsif (current_state = "100") then
 			elsif (current_state = "101") then
-				RF_write <= '1'; 
-				C_select <= "01";
 			end if;
 	end if;
 				--R-type jmp
@@ -395,7 +392,7 @@ begin
 	if ((OP_code="110" ) and (OPX = "0000")) then
 		if (current_state = "010") then
 		 elsif (current_state = "011") then
-			extend <= "000";
+			extend <= "011";
 			INC_select <= '1'; 
 			PC_select   <= "01"; 
 			PC_enable <= '1';
@@ -411,7 +408,7 @@ begin
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
 			if (Z='1') then
-				extend <= "000";
+				extend <= "011";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -428,7 +425,7 @@ begin
 			ALU_op <= "11";
 			A_inv<='0'; B_inv<='1'; C_in<='1';
 			if (Z='0') then
-				extend <= "000";
+				extend <= "011";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
@@ -509,15 +506,12 @@ begin
 	if ((OP_code="110" ) and (OPX = "0111")) then
 		if (current_state = "010") then
 		elsif (current_state = "011") then
-			B_select <= '0';
-			ALU_op <= "11";
-			A_inv<='0'; B_inv<='1'; C_in<='1';
-			if (N = V) then
+			if (not N = V) then
 				extend <= "011";
 				INC_select <= '1'; 
 				PC_select   <= "01"; 
 				PC_enable <= '1';
-		end if;
+			end if;
 		elsif (current_state = "100") then
 		elsif (current_state = "101") then
 		end if;

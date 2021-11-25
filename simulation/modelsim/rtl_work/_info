@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/simulation/modelsim
 Eadder16bit
-Z1 w1637275529
+Z1 w1637796577
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
@@ -21,9 +21,9 @@ VJDUSWBVR;_zbzV5eOon6Z3
 !s100 MlZzB0SU2D^65>Q_fO1cF3
 Z6 OV;C;10.5b;63
 33
-Z7 !s110 1637287042
+Z7 !s110 1637851569
 !i10b 1
-Z8 !s108 1637287042.000000
+Z8 !s108 1637851569.000000
 Z9 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd|
 Z10 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Adder16Bit.vhd|
 !i113 1
@@ -99,11 +99,11 @@ VHgGhU[zkKcVKPN<:bM6fP0
 !s100 Z^<A>iozZhX>QMBccL:OQ3
 R6
 33
-Z19 !s110 1637287041
+R7
 !i10b 1
-Z20 !s108 1637287041.000000
-Z21 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd|
-Z22 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd|
+R8
+Z19 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd|
+Z20 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ALU.vhd|
 !i113 1
 R11
 R12
@@ -117,32 +117,32 @@ V2KDZ1^Jd?NN;IZdHe:k_M2
 !s100 NlK1N^3^5UNORb2mMX^9H3
 R6
 33
-R19
+R7
 !i10b 1
+R8
+R19
 R20
-R21
-R22
 !i113 1
 R11
 R12
 Econtrolunit
-Z23 w1637286873
+Z21 w1637851320
 R2
 R3
 R0
-Z24 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd
-Z25 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd
+Z22 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd
+Z23 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd
 l0
 L21
 V5::W`31ElNL_:1oRYd>P^1
 !s100 YK[4NML3_1k0m=f^NbREV2
 R6
 33
-R19
+R7
 !i10b 1
-R20
-Z26 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd|
-Z27 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd|
+R8
+Z24 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd|
+Z25 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/ControlUnit.vhd|
 !i113 1
 R11
 R12
@@ -152,15 +152,15 @@ R3
 DEx4 work 11 controlunit 0 22 5::W`31ElNL_:1oRYd>P^1
 l58
 L51
-V:MCN6kSKehNhTfQ]6J31k0
-!s100 3QchGJWHmbeOJ?IHhS9jG2
+VXYTLLRBVVMYcC_M:[lQP_1
+!s100 HdheaCSLnm4]Qe5blVH7E2
 R6
 33
-R19
+R7
 !i10b 1
-R20
-R26
-R27
+R8
+R24
+R25
 !i113 1
 R11
 R12
@@ -169,19 +169,19 @@ R1
 R2
 R3
 R0
-Z28 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd
-Z29 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd
+Z26 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd
+Z27 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd
 l0
 L21
 VTfUE::adnmOH@7@oBO^Aa0
 !s100 2kPGWcZ6O>o4<I:68A9QJ1
 R6
 33
-R19
+R7
 !i10b 1
-R20
-Z30 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd|
-Z31 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd|
+R8
+Z28 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd|
+Z29 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Decoder3Bit.vhd|
 !i113 1
 R11
 R12
@@ -195,11 +195,11 @@ VX=>DfREK@V4bizEX2?M:>2
 !s100 9IOjHj@40GRzl:MgW6O`P0
 R6
 33
-R19
+R7
 !i10b 1
-R20
-R30
-R31
+R8
+R28
+R29
 !i113 1
 R11
 R12
@@ -208,19 +208,19 @@ R1
 R2
 R3
 R0
-Z32 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd
-Z33 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd
+Z30 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd
+Z31 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd
 l0
 L21
 VaXVfT>QF<=ZFEkH3gS]>T3
 !s100 f77U2EnT<kf94hLhLSUYf0
 R6
 33
-R19
+R7
 !i10b 1
-R20
-Z34 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd|
-Z35 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd|
+R8
+Z32 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd|
+Z33 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Immediate.vhd|
 !i113 1
 R11
 R12
@@ -234,11 +234,11 @@ VE?LijEMP[ZzN:G<R<LQD92
 !s100 ;jL:FhhBK6D3dl1PcAHSH0
 R6
 33
-R19
+R7
 !i10b 1
-R20
-R34
-R35
+R8
+R32
+R33
 !i113 1
 R11
 R12
@@ -247,19 +247,19 @@ R1
 R2
 R3
 R0
-Z36 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd
-Z37 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd
+Z34 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd
+Z35 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd
 l0
 L24
 VSemADXORlk36[A;V`S6_Q1
 !s100 L[Y4>:[HYfHb6obQOMjA92
 R6
 33
-R19
+R7
 !i10b 1
-R20
-Z38 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd|
-Z39 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd|
+R8
+Z36 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd|
+Z37 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MainMemory.vhd|
 !i113 1
 R11
 R12
@@ -273,11 +273,11 @@ VW>:o43H>3@GM410TE3TW[1
 !s100 @P^X>GioiNLEPe34MDl_P2
 R6
 33
-R19
+R7
 !i10b 1
-R20
-R38
-R39
+R8
+R36
+R37
 !i113 1
 R11
 R12
@@ -286,19 +286,19 @@ R1
 R2
 R3
 R0
-Z40 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd
-Z41 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd
+Z38 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd
+Z39 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd
 l0
 L21
 Vh8Z9fHfcM^][a;3NZGLjH3
 !s100 BZ2YaaN=Y8DdoTMdDKA=e1
 R6
 33
-R19
+R7
 !i10b 1
-R20
-Z42 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd|
-Z43 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd|
+R8
+Z40 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd|
+Z41 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/MemoryIOInterface.vhd|
 !i113 1
 R11
 R12
@@ -312,11 +312,11 @@ VYTUnj3K8WL1;=JzGa@V1L3
 !s100 Kb25j>c@hGZ74]IQQWZJA3
 R6
 33
-R19
+R7
 !i10b 1
-R20
-R42
-R43
+R8
+R40
+R41
 !i113 1
 R11
 R12
@@ -325,19 +325,19 @@ R1
 R2
 R3
 R0
-Z44 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd
-Z45 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd
+Z42 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd
+Z43 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd
 l0
 L21
 Vh?o6TiDF75nCMUC?aMC[40
 !s100 ;6g[fGP2no@0GldbPY1F_0
 R6
 33
-R19
+R7
 !i10b 1
-R20
-Z46 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd|
-Z47 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd|
+R8
+Z44 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd|
+Z45 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux2Input16Bit.vhd|
 !i113 1
 R11
 R12
@@ -351,11 +351,11 @@ VNloHnkRVLC7@>HdAeHSC>1
 !s100 `2Sz?0eJX`3M@JiRNVR:z3
 R6
 33
-R19
+R7
 !i10b 1
-R20
-R46
-R47
+R8
+R44
+R45
 !i113 1
 R11
 R12
@@ -364,19 +364,19 @@ R1
 R2
 R3
 R0
-Z48 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd
-Z49 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd
+Z46 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd
+Z47 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd
 l0
 L21
 VgMc9a=l3VThDCH8QfUJX93
 !s100 i5R8d7eTUAJ?hRBJVRD=d1
 R6
 33
-Z50 !s110 1637287040
+Z48 !s110 1637851568
 !i10b 1
-Z51 !s108 1637287040.000000
-Z52 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd|
-Z53 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd|
+Z49 !s108 1637851568.000000
+Z50 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd|
+Z51 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input16Bit.vhd|
 !i113 1
 R11
 R12
@@ -390,11 +390,11 @@ V>?>7GF2o5DPllIc<HBS?f2
 !s100 c=lXEZo<nUU:0:_N1WKck3
 R6
 33
-R50
+R48
 !i10b 1
+R49
+R50
 R51
-R52
-R53
 !i113 1
 R11
 R12
@@ -403,19 +403,19 @@ R1
 R2
 R3
 R0
-Z54 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd
-Z55 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd
+Z52 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd
+Z53 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd
 l0
 L21
 VASIO4z=^i5D84VHIFnofG2
 !s100 TEXbE=khbIG2D^cj<;<aM3
 R6
 33
-R19
+R48
 !i10b 1
-R51
-Z56 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd|
-Z57 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd|
+R49
+Z54 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd|
+Z55 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux4Input3Bit.vhd|
 !i113 1
 R11
 R12
@@ -429,11 +429,11 @@ VaM<U7kzhb9=Wh6IjOCn8@3
 !s100 z1;m5FEJ5`d`?bZ>G9`9]0
 R6
 33
-R19
+R48
 !i10b 1
-R51
-R56
-R57
+R49
+R54
+R55
 !i113 1
 R11
 R12
@@ -442,19 +442,19 @@ R1
 R2
 R3
 R0
-Z58 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd
-Z59 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd
+Z56 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd
+Z57 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd
 l0
 L21
 V;Q=[KkK:L4liYC_d21@8<2
 !s100 U=Fgkg59iR1SE=;dcGNJS2
 R6
 33
-R50
+R48
 !i10b 1
-R51
-Z60 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd|
-Z61 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd|
+R49
+Z58 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd|
+Z59 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Mux8Input16Bit.vhd|
 !i113 1
 R11
 R12
@@ -468,11 +468,11 @@ VzaLD18<XfVzCMZANm@l7l0
 !s100 W=b?UejZlgd9EOjJklePz1
 R6
 33
-R50
+R48
 !i10b 1
-R51
-R60
-R61
+R49
+R58
+R59
 !i113 1
 R11
 R12
@@ -481,19 +481,19 @@ R1
 R2
 R3
 R0
-Z62 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd
-Z63 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd
+Z60 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd
+Z61 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd
 l0
 L21
 VdF1_bf6YA[?Tld12X09f:1
 !s100 `N_gFVk]Qeoc<<^[o3DS[3
 R6
 33
-R50
+R48
 !i10b 1
-R51
-Z64 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd|
-Z65 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd|
+R49
+Z62 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd|
+Z63 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg16Bit.vhd|
 !i113 1
 R11
 R12
@@ -507,11 +507,11 @@ VNKRn3J4e2[k99UNDV_cT70
 !s100 VjCK1[SgdY]AZg5aigfmJ1
 R6
 33
-R50
+R48
 !i10b 1
-R51
-R64
-R65
+R49
+R62
+R63
 !i113 1
 R11
 R12
@@ -520,19 +520,19 @@ R1
 R2
 R3
 R0
-Z66 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd
-Z67 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd
+Z64 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd
+Z65 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd
 l0
 L21
 V[fW2Amco5CajhFL3M`Q1V2
 !s100 KWkWE08lA@LTH_Yfo6nmd3
 R6
 33
-R50
+R48
 !i10b 1
-R51
-Z68 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd|
-Z69 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd|
+R49
+Z66 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd|
+Z67 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/Reg1Bit.vhd|
 !i113 1
 R11
 R12
@@ -546,11 +546,11 @@ VL<mkHb2aYJb;XmaJ:mnjG0
 !s100 Ma5>z?RmOSkU3HH>1JGCk3
 R6
 33
-R50
+R48
 !i10b 1
-R51
-R68
-R69
+R49
+R66
+R67
 !i113 1
 R11
 R12
@@ -559,19 +559,19 @@ R1
 R2
 R3
 R0
-Z70 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd
-Z71 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd
+Z68 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd
+Z69 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd
 l0
 L21
 VnFhkLUh6X8Z4gVN5:bVO<2
 !s100 R0?EZl8Rb2b;`G8^AKHBM2
 R6
 33
-R50
+R48
 !i10b 1
-R51
-Z72 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd|
-Z73 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd|
+R49
+Z70 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd|
+Z71 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/RegisterFile8by16Bit.vhd|
 !i113 1
 R11
 R12
@@ -585,11 +585,11 @@ VIZiimJf`U[j9DzZJCz]W_3
 !s100 R7d`6didzX4Wd5OGkT]Wa1
 R6
 33
-R50
+R48
 !i10b 1
-R51
-R72
-R73
+R49
+R70
+R71
 !i113 1
 R11
 R12
@@ -598,19 +598,19 @@ R1
 R2
 R3
 R0
-Z74 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd
-Z75 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd
+Z72 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd
+Z73 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd
 l0
 L21
 VM<?EAbJBM0H>6K=LE:5Z50
 !s100 CzAkJojAEX4SSe7QKgQK52
 R6
 33
-R50
+R48
 !i10b 1
-R51
-Z76 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd|
-Z77 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd|
+R49
+Z74 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd|
+Z75 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleComputer.vhd|
 !i113 1
 R11
 R12
@@ -624,50 +624,50 @@ ViUSRIk8]7ID[L=T`Za62X2
 !s100 ]K6nInG>XX^Rn=;<ab?nC2
 R6
 33
-R50
+R48
 !i10b 1
-R51
-R76
-R77
+R49
+R74
+R75
 !i113 1
 R11
 R12
 Esimpleprocessor
-Z78 w1637285270
+Z76 w1637851383
 R2
 R3
 R0
-Z79 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd
-Z80 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd
+Z77 8C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd
+Z78 FC:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd
 l0
 L21
-VBeB]l]9X[kc<]IKT1n`H92
-!s100 M[4ZVb8[c:^R67CdM[5YR3
+V^XdRSmVi?FY59o=4ClKYG0
+!s100 C=U3fEnf1CKHoeXZTf]5[1
 R6
 33
-R50
+R48
 !i10b 1
-R51
-Z81 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd|
-Z82 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd|
+R49
+Z79 !s90 -reportprogress|300|-2008|-work|work|C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd|
+Z80 !s107 C:/Temp/CSCE-230-Simple_But_Mighty_Proccsessor/SimpleProcessor.vhd|
 !i113 1
 R11
 R12
 Aimplementation
 R2
 R3
-DEx4 work 15 simpleprocessor 0 22 BeB]l]9X[kc<]IKT1n`H92
-l183
-L51
-VjoBcR1[lA_`51LLQ5XTHj3
-!s100 dWd]OELifTUdmb?4_b9N@2
+DEx4 work 15 simpleprocessor 0 22 ^XdRSmVi?FY59o=4ClKYG0
+l182
+L50
+VmkBfha=0`>don?il:]zQ@2
+!s100 ;:[FK>mBnkRI8Ki`7OV5T2
 R6
 33
-R50
+R48
 !i10b 1
-R51
-R81
-R82
+R49
+R79
+R80
 !i113 1
 R11
 R12

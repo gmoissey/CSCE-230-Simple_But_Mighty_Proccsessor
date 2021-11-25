@@ -43,8 +43,7 @@ entity SimpleProcessor is
 			debug_RB	: out std_logic_vector(15 downto 0);
 			debug_Extension : out std_logic_vector(15 downto 0);
 			debug_RZ	: out std_logic_vector(15 downto 0);
-			debug_RY	: out std_logic_vector(15 downto 0);
-			debug_Bs	: out std_logic
+			debug_RY	: out std_logic_vector(15 downto 0)
 	);
 end SimpleProcessor;
 
@@ -189,7 +188,6 @@ begin
 	debug_Extension <= Data_Extension;
 	debug_RZ <= Data_RZ;
 	debug_RY <= Data_RY;
-	debug_Bs <= B_select;
 
 	-- Student Code:  Connect processor components below
 	IR: 				Reg16Bit 		port map(clock => clock, reset => reset, enable => IR_enable, D => Data_from_Mem, Q => Data_IR);
