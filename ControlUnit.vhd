@@ -326,7 +326,7 @@ begin
 	if (OP_code="100") then
 		if (current_state = "010") then
 		elsif (current_state = "011") then
-			extend <= "000";
+			extend <= "001";
 			B_select <= '1'; 
 			ALU_op   <= "01"; 
 			A_inv <= '0'; B_inv <= '0'; C_in <= '0';
